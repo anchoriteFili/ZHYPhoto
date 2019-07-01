@@ -639,10 +639,10 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
     NSLog(@"newImagesArray ****** %@",newImagesArray);
     
     
-//    // 传递压缩图片数据
-//    if (_delegate && [_delegate respondsToSelector:@selector(CustomCameraVCDelegateWithImageArray:)]) {
-//        [_delegate CustomCameraVCDelegateWithImageArray:newImagesArray];
-//    }
+    // 传递压缩图片数据
+    if (_delegate && [_delegate respondsToSelector:@selector(customCameraCVButtonClickEventType:)]) {
+        [_delegate customCameraCVButtonClickEventType:CustomCameraVCButtonClickTypeCompleteClick];
+    }
     
     // 直接退回到选择证照附件页面
     UIViewController *vc = self;

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -33,7 +34,7 @@ typedef NS_ENUM(NSInteger, OpenPhotoType) {
 
  @param type OpenPhotoTypeCamera  相机 OpenPhotoTypeAlbum相册
  */
-+ (void)openPhotoWithChoseType:(OpenPhotoType)type photoCount:(NSInteger)photoNum andVC:(nonnull UIViewController *)VC;
++ (void)openPhotoWithChoseType:(OpenPhotoType)type photoCount:(NSInteger)photoNum andVC:(UIViewController *)VC;
 
 
 

@@ -12,7 +12,7 @@
 
 @implementation ZHYPhoto
 
-+ (void)openPhotoWithChoseType:(OpenPhotoType)type photoCount:(NSInteger)photoNum andVC:(nonnull UIViewController *)VC {
++ (void)openPhotoWithChoseType:(OpenPhotoType)type photoCount:(NSInteger)photoNum andVC:(UIViewController *)VC {
     
     
     [AlbumTool albumAuthorizationWithAuthorization:^(AlbumAuthorizationType authorization) {
@@ -21,7 +21,7 @@
         if (authorization == AlbumAuthorizationTypeClose) {
             // 添加提示框
             UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"提示" message:@"请前往设置->照片授权应用访问相册权限" preferredStyle:UIAlertControllerStyleAlert];
-            UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]
+            UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
             UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 
                 NSURL *settingURL = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
@@ -45,7 +45,7 @@
                 customPhotoAlbum.isOpenCamera = YES;
             }
             
-            customPhotoAlbum.photoNum = photoNum != nil ? photoNum : 9
+            customPhotoAlbum.photoNum = photoNum;
             customPhotoAlbum.cameraPhotoImagesArray = [NSMutableArray array];
             [VC presentViewController:customPhotoAlbum animated:YES completion:nil];
         }

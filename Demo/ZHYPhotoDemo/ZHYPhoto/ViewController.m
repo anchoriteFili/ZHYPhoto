@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZHYPhoto.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+
+- (IBAction)photoClick:(UIButton *)sender {
+    
+    [ZHYPhoto openPhotoWithChoseType:0 photoCount:5 andVC:self];
+}
+
+
 
 
 @end

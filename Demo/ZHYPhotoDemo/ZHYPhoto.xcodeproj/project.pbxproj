@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFBACA9B5DDD151DA29C56E4 /* Pods_ZHYPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95544C5E82A6861FAB729CEA /* Pods_ZHYPhoto.framework */; };
 		D6E5241322C9AADE0022BE96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5241222C9AADE0022BE96 /* AppDelegate.m */; };
 		D6E5241622C9AADE0022BE96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5241522C9AADE0022BE96 /* ViewController.m */; };
 		D6E5241922C9AADE0022BE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E5241722C9AADE0022BE96 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A82A3982FB057CF37865190 /* Pods-ZHYPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYPhoto.release.xcconfig"; path = "Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto.release.xcconfig"; sourceTree = "<group>"; };
+		95544C5E82A6861FAB729CEA /* Pods_ZHYPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHYPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E5240E22C9AADE0022BE96 /* ZHYPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E5241122C9AADE0022BE96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6E5241222C9AADE0022BE96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		D6E5242022C9AAE00022BE96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6E5242722C9AB2D0022BE96 /* ZHYPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZHYPhoto.h; path = ../../../Source/ZHYPhoto.h; sourceTree = "<group>"; };
 		D6E5242822C9AB2D0022BE96 /* ZHYPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZHYPhoto.m; path = ../../../Source/ZHYPhoto.m; sourceTree = "<group>"; };
+		DF20869CFDD0C3D24EFC700D /* Pods-ZHYPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYPhoto.debug.xcconfig"; path = "Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +40,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFBACA9B5DDD151DA29C56E4 /* Pods_ZHYPhoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DFE4406C0BFB48DE4829E0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF20869CFDD0C3D24EFC700D /* Pods-ZHYPhoto.debug.xcconfig */,
+				5A82A3982FB057CF37865190 /* Pods-ZHYPhoto.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB9582ABC7CBB6E8310468C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95544C5E82A6861FAB729CEA /* Pods_ZHYPhoto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6E5240522C9AADE0022BE96 = {
 			isa = PBXGroup;
 			children = (
 				D6E5241022C9AADE0022BE96 /* ZHYPhoto */,
 				D6E5240F22C9AADE0022BE96 /* Products */,
+				7DFE4406C0BFB48DE4829E0D /* Pods */,
+				BB9582ABC7CBB6E8310468C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6E5242422C9AAE00022BE96 /* Build configuration list for PBXNativeTarget "ZHYPhoto" */;
 			buildPhases = (
+				FF67D777D1C537B9CA127232 /* [CP] Check Pods Manifest.lock */,
 				D6E5240A22C9AADE0022BE96 /* Sources */,
 				D6E5240B22C9AADE0022BE96 /* Frameworks */,
 				D6E5240C22C9AADE0022BE96 /* Resources */,
+				49261B8C1D3D17F163D2D80B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +167,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49261B8C1D3D17F163D2D80B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF67D777D1C537B9CA127232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHYPhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D6E5240A22C9AADE0022BE96 /* Sources */ = {
@@ -289,12 +358,13 @@
 		};
 		D6E5242522C9AAE00022BE96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF20869CFDD0C3D24EFC700D /* Pods-ZHYPhoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2VMV6XMH2;
 				INFOPLIST_FILE = ZHYPhoto/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,12 +377,13 @@
 		};
 		D6E5242622C9AAE00022BE96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A82A3982FB057CF37865190 /* Pods-ZHYPhoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M2VMV6XMH2;
 				INFOPLIST_FILE = ZHYPhoto/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

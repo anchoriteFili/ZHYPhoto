@@ -20,10 +20,14 @@ typedef NS_ENUM(NSInteger, OpenPhotoType) {
 };
 
 @interface ZHYPhoto : NSObject
-/**
- 打开打开相机或者相册
 
- @param type OpenPhotoTypeCamera  相机 OpenPhotoTypeAlbum相册
+
+/**
+ 调取相册相机
+
+ @param type 判断是打开相机还是相册 不能为空
+ @param photoNum 获取图片的上限 不能可为空
+ @param VC 调取相机相册的视图控制器 不能为空
  */
 + (void)openPhotoWithChoseType:(OpenPhotoType)type photoCount:(NSInteger)photoNum andVC:(UIViewController *)VC;
 

@@ -10,13 +10,14 @@
 #endif
 #endif
 
-#import "Album.h"
 #import "CertificateCollectionViewCell.h"
 #import "CertificateTableViewCell.h"
+#import "Album.h"
 #import "AlbumTool.h"
 #import "CertificateCellModel.h"
 #import "ImageDirectionTool.h"
 #import "ImagesScrollView.h"
+#import "MBProgressHUD.h"
 #import "ZHYPhoto.h"
 #import "CustomCameraCVCell.h"
 #import "CustomCameraUsePhotoView.h"

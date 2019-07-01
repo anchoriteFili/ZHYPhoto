@@ -7,50 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0541D6D6B2E870A450794199F6B95F63 /* Album.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D86191F1D2B4FB0CCF9F33DD9ECF592 /* Album.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		067075AD3535AFA2D34528B4DA35FCAF /* ZHYPhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB68FB1C47F44664C4684037B25A7E9 /* ZHYPhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B23B3B767D1B1F74B2012E6A5C66DFA /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6F10B30BD562108F9A4D02E3374359 /* Album.m */; };
-		11081C8F47E3887B762055B4ED9564C7 /* CustomCameraCVCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 6A12E6778577341D2B1F59469FC3F61F /* CustomCameraCVCell.xib */; };
-		11609AAD32B12A96A75308C971FC060D /* CustomPhotoAlbumPreviewView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 744E718AE50B7891D71489735AFC3633 /* CustomPhotoAlbumPreviewView.xib */; };
-		1E98148B6A479A72AEDE4531CF9D08EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		24313C224D28CDCFDF5DEFB398D87102 /* ChooseLicenseAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CDDAFE45CFCE1F6308515F7F925D2E5 /* ChooseLicenseAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		254094229990F0A7CD0A9AFB3859B95C /* CustomPhotoAlbumPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E223BBC0F8C796D8214816643F0696 /* CustomPhotoAlbumPreviewView.m */; };
-		2A4D801A8516CA0CF7257B8C532111AB /* CertificateCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E02E2E15D6E19577684BE94C9D8AB79 /* CertificateCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E24659753316BFE54685BFA36265AB5 /* ImageDirectionTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C1C5DC2F228C35EF32909919813A00 /* ImageDirectionTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F8355F91D1A4D9BBC5633C41E031F56 /* CustomCameraVC.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9D03C84778B4D8ABE132000FC58F6D /* CustomCameraVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E1CA1D634B27F28C2239CD7B4C19AFE /* CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304E5765E69BD843549DE97DA467FE4 /* CustomPhotoAlbum.m */; };
-		44C26FFA67BC20E3EE3DF3D776F1FBE1 /* CustomCameraCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B2BF89BD27B940AF01D866655D12A7 /* CustomCameraCVCell.m */; };
-		4557DFDE1DDDA27CBAB561076690F704 /* CustomPhotoAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = CE824D4D2FB36CA4E645FFC8CF596DB0 /* CustomPhotoAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D67F739E076D2D0E25877B46360AD17 /* CustomCameraUsePhotoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CD377F7F57F92C5F2CCBB5CA6A3F45 /* CustomCameraUsePhotoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54DC2D3CD7973C5A0C8C6C4F0360C12B /* ChooseLicenseAccessoryVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 622306778C0C7FF194B6E1EF5E0C6A01 /* ChooseLicenseAccessoryVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B465FD93174483510A27D323D3A9D7C /* CertificateCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E0F3AB773DB5E97E64CA181A60F759 /* CertificateCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		610C43B7509B8446DA9B912B286DE431 /* ChooseLicenseAccessoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F2F878B68BF5957D75343D96E0F240 /* ChooseLicenseAccessoryVC.m */; };
-		63A90C43B87AF599B3F647E866BDE7AA /* CertificateTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 994B8764E4F83640E3477674392746FF /* CertificateTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68942291F7197AB24EC51F607455DE8E /* AlbumTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F995BF20F5490EEF69C8FAA5E1397FF9 /* AlbumTool.m */; };
-		6D7B224A2B866F19F37D7EBE5AD31590 /* ImagesScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A3E1978F1C24C5FE2A6B213432408A /* ImagesScrollView.m */; };
-		74093F1D854333C576E65726C5251DE1 /* CustomPhotoAlbumPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2B900FAE39BD95CB3B8487E0495811 /* CustomPhotoAlbumPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79C7201DCFA6A273B99E3AB28CA46E27 /* ZHYPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 995DF2FAFAC6A568B15FEF447E62C72C /* ZHYPhoto.m */; };
+		02050E5EE34375D7B9C1DAD742FF8173 /* CustomPhotoAlbumPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7B2565C31BD7A522C1F29862158633 /* CustomPhotoAlbumPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F6F1257D22FF4D8ADE44AE385FB3D3 /* CustomCameraVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D4152ABD2E28F8C99A003D7A9675A208 /* CustomCameraVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05843E30FE1C7D0B4BD34205EE3AA032 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = FC4CFF1D91F3FEDE8AE56916ADDB66FD /* LICENSE */; };
+		0ADBD2CE78A327E5177C51DDEEBE5AE7 /* CustomCameraCVCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7A423BBF3FCF9A9DB6691FCE3BD074DB /* CustomCameraCVCell.xib */; };
+		0DD790A7263E3BEFBAF63F4920F27632 /* AlbumTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 572C40A3EB1517AE6F857F1AB9A4BFF3 /* AlbumTool.m */; };
+		1775ABA39A8A1E90DCD29E6F6AFB3BA5 /* ImageDirectionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A277C17431812D9EFDFBD1AE6BE5F3BB /* ImageDirectionTool.m */; };
+		190BB5A8331E986E63027805F24ABAA2 /* ImageDirectionTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 768A973E4D26D4CC936DDC62E76507F8 /* ImageDirectionTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BDC886D12D59AD408C3A4EC1896B7B6 /* ZHYPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = C6039356E29C3A5787D6702A7F930D50 /* ZHYPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D29F2ED81629859393959EB63C66EF8 /* CertificateCellModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC2AC85806575E3A15B1D0E1215A524 /* CertificateCellModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DCB9B6CEAC08757F574DA7869D07AC4 /* CustomCameraUsePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D786D590ED4A43899051A109394F5D48 /* CustomCameraUsePhotoView.m */; };
+		26A458E6F34BA2A61FF2C212A5464731 /* CustomCameraVC.xib in Sources */ = {isa = PBXBuildFile; fileRef = 285FDDDE8385EEEA4A6440C6A277F8B8 /* CustomCameraVC.xib */; };
+		2C0098EBD746EB37DFA63F7B64417EC8 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E4EFE3DB21BB3E530FC0F661110BEE /* Album.m */; };
+		2C6EAF77460443E7996404B66EE5A804 /* ImagesScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A822734715ECEFFDF4FC473245C6432 /* ImagesScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DE08998BBB6FB172692B90E904D164 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 542018E471FFEAEA33E249DE74DA0DF4 /* MBProgressHUD.m */; };
+		45389F606665A06986F7E6E4089AB598 /* CertificateCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = D27F86248FFEEF4CEE55E8F34299C599 /* CertificateCollectionViewCell.xib */; };
+		473C759C6C5F279169183EB214B7DB2A /* AlbumTool.h in Headers */ = {isa = PBXBuildFile; fileRef = A384BB7E463A07B1BD96F1C36D6E9498 /* AlbumTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E4925DBA08791E9F9E2C6AA5B1D4DB /* CustomCameraUsePhotoView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7A417DEC052629C6C48BD2BB24FD62 /* CustomCameraUsePhotoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52CBEF534F9FE4885CA1640B3A0FF2CD /* CustomCameraUsePhotoView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 75DE4AF024988ECA052D8760586A72C7 /* CustomCameraUsePhotoView.xib */; };
+		5341D4F4FDF7D1C9E4067938D078B579 /* CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1A92BD85B65EB25D14AF83D5A7A52D /* CustomPhotoAlbum.m */; };
+		570A8A9B3D3A201B200A14F4E98A4E13 /* CustomPhotoAlbum.xib in Sources */ = {isa = PBXBuildFile; fileRef = D12759F9B7256BF175536361BB0C1FC0 /* CustomPhotoAlbum.xib */; };
+		5852AC6380914FBE3E988274F0CC0DEC /* ZHYPhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE69AB5B77AD42C5B8107DB075EA384D /* ZHYPhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		638E2310BD10F11A0659F0099DAABFC3 /* ChooseLicenseAccessoryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = AA0953F8680FE9EEFA0B768113F9A87C /* ChooseLicenseAccessoryView.xib */; };
+		69F7C6C30DD8882D4AFF62A0D3B79478 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = A4CA8FE6E5C1B89F7F89CA00DAEA6A98 /* README.mdown */; };
+		75EE32415A19D66CAE9A22577F4A44E2 /* ZHYPhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B8DDA6187ABD3C0B57840820499B6C /* ZHYPhoto-dummy.m */; };
+		773488CBFF752E52D77D3E2327BC02E9 /* ChooseLicenseAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB031EAFC47F33DF6791ED216EFF07C /* ChooseLicenseAccessoryView.m */; };
+		78F6B1DECC4E9BAC9DC367A88E659426 /* ChooseLicenseAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8339E50E1E93B16229ACAC26E6445052 /* ChooseLicenseAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B512D879AC0151676F244AE5A0F467B /* CertificateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EDE1B739C6F0FB2D97EE5B4EABFC90 /* CertificateTableViewCell.m */; };
+		7BAD0723E361CE4F01361A163C78E50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7C79B7A1616549A39F509290B6F737BD /* CertificateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD8B7EF2FDC367D3B8B17B0F29E246B /* CertificateCollectionViewCell.m */; };
 		82760143E4D237D14AB5049BF0E04FCD /* Pods-ZHYPhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5254CE58AC811119CF4CEC5F6C771E40 /* Pods-ZHYPhoto-dummy.m */; };
 		84EE5654A011D2C33F81A486CD1B9999 /* Pods-ZHYPhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE00D27594F37D05984F930EC4F209EC /* Pods-ZHYPhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87DBBAACB14768FC09E109DCEAD7DF2D /* CustomCameraVC.xib in Sources */ = {isa = PBXBuildFile; fileRef = C8FA69EFCFA9D825CD9ED7D8BBD60DBC /* CustomCameraVC.xib */; };
-		884709D2F27AFE6A6A72E85838A74CBA /* CertificateCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 6536A69055A35F9C0A520B88C260C94E /* CertificateCollectionViewCell.xib */; };
-		899F222E497F0EEAB0A271FAFE530E02 /* ImagesScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC9B94AFC55DBADB2618E133EDC4831 /* ImagesScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98B8CF283D8872463AFB6088DAE7AB0D /* CustomPhotoAlbum.xib in Sources */ = {isa = PBXBuildFile; fileRef = 58B66E0A40D58668378877EC6ABE6134 /* CustomPhotoAlbum.xib */; };
-		9DA7812F750204B22A6013217E422DCF /* CustomCameraUsePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA58483ABD610E017FDB17A76059539E /* CustomCameraUsePhotoView.m */; };
+		8F4330B3C6E7BD0FA585D392446C9948 /* CertificateTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 20F018251F0D792A51E70E9F2652AB7F /* CertificateTableViewCell.xib */; };
+		97A193FEDF18A3661B5BD527DAEB35DA /* ZHYPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B246C7ED75EA8363E010574B5E7517DF /* ZHYPhoto.m */; };
+		99AE3D10D21601DAD4CE4D4CA99AAD77 /* ImagesScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E45C43BD50F0864D96F65441B5B8B72C /* ImagesScrollView.m */; };
 		A68A09003492BEFC58BD95E67A7AF056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		ADB5F43A4FCAD909AF3040FB9F1A1397 /* ZHYPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 8478D1A2BFB24730105F636A91F9856D /* ZHYPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8E293A3FC1ED64AE0B81DA16A96F771 /* ChooseLicenseAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9811817EF7957686804F8EB8DB4CAC /* ChooseLicenseAccessoryView.m */; };
-		BED57686245611AC88AB452928F36B66 /* ChooseLicenseAccessoryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4A21B96D1BE8CB4CE231C0798A794CBE /* ChooseLicenseAccessoryView.xib */; };
-		BEFC388B0679DB31B0064C83C73D2C54 /* CustomCameraCVCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 825B7B623DA4F164BD81602B028E09A9 /* CustomCameraCVCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2222791B2F2BF808AAEFF6FE2331E6A /* CustomCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D92BD7BC42C03248996871785FC8CCE9 /* CustomCameraVC.m */; };
-		C5083D0EF73DF15F00B5031B720E28E3 /* CertificateCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37883B8DAD348A96790115F50475B2F1 /* CertificateCellModel.m */; };
-		C9D346BB020132E7DEFEEF4FCBC75A0B /* CertificateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34BBB8AFB6821E9C0674F0D7834244 /* CertificateTableViewCell.m */; };
-		D50BE3710BFA91F7E26FD4F8BCF3070A /* CertificateTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 771B3B130CC5993AB5B646CCDDCDD96B /* CertificateTableViewCell.xib */; };
-		D52CA98C1418E095E58B6C2C2E72C841 /* AlbumTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E40815127E5320295EA2832B4952AF72 /* AlbumTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC21BC4483334CE42B599868BEEA2737 /* CertificateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBFC4D214C387EC8FCD47EA68A138D7 /* CertificateCollectionViewCell.m */; };
-		E845F3E49318945BE0A82D45043C5E7B /* ImageDirectionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 805B2370539C13E0F6FF85CE260417B5 /* ImageDirectionTool.m */; };
-		EA5816F520E073F750FC888992B82668 /* CustomCameraUsePhotoView.xib in Sources */ = {isa = PBXBuildFile; fileRef = B9133A0F8CA8FAE434652622F16EEE7B /* CustomCameraUsePhotoView.xib */; };
-		FA040D940D6E465F2CA5A8C1064EAECB /* ZHYPhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC28271EE380F5167CB1BC727C794443 /* ZHYPhoto-dummy.m */; };
+		A71BF4F24077A2E5AA96EDCEA98260D1 /* CertificateTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BB22510BC97DDDD820260CFCFDB51F3 /* CertificateTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE75D0406C137DC3BEE8C4C3064C491 /* CertificateCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F10ADFE0697FE9EEB52078B09F557B9B /* CertificateCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1FEE9715446CF2CDC63A21324C64DEA /* CertificateCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA9C55445C96D16C90B1214A6DA6D7A /* CertificateCellModel.m */; };
+		B54656FACCF83AD9DADD52CCB54AFDCD /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D20E62EF14BE9E40F11D35BF4B32DE94 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCF6023B3B7E43E79C7CB46FE2ED1908 /* ChooseLicenseAccessoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A023FBEA4DD1C1F047E085EE798A8F43 /* ChooseLicenseAccessoryVC.m */; };
+		C2EA3673E35AFDC6C3F894C45AEFF9FA /* CustomCameraCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8ACC8BF4B13065A3445A9FAD88960EE /* CustomCameraCVCell.m */; };
+		C3D9C951C20820D80D510D132DC82835 /* CustomCameraCVCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F19337C5C2880D625CE369AC90718F /* CustomCameraCVCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A7A5CB69FAD394E6E06197C671FCFC /* CustomPhotoAlbumPreviewView.xib in Sources */ = {isa = PBXBuildFile; fileRef = A7375C31613A14D144717E1373A36986 /* CustomPhotoAlbumPreviewView.xib */; };
+		C91AE21BA1E33AE4905E205A806161A3 /* ChooseLicenseAccessoryVC.h in Headers */ = {isa = PBXBuildFile; fileRef = C58D5588E01CC2772842FDFA9B00B12A /* ChooseLicenseAccessoryVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E95D67513ACF587457509D5025BE1DBF /* CustomPhotoAlbumPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 236FF3C1DB472B964243BFC28928C500 /* CustomPhotoAlbumPreviewView.m */; };
+		E9782396E6F015EBE510DC037381BB06 /* Album.h in Headers */ = {isa = PBXBuildFile; fileRef = 683D65D90DDC900A53E3E79B3289BF55 /* Album.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB86F9896696C81DA61F43A33A1DD921 /* CustomCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B85DA75DA1B34E82B6EFFC93280F61F /* CustomCameraVC.m */; };
+		F767C2579DFBA620F1E6DA298F82D04F /* CustomPhotoAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D7EA90521F281A2E3C41996BCEF990 /* CustomPhotoAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,66 +68,70 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009F1AC43DCADD93B944369209AD407F /* ZHYPhoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZHYPhoto.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		01B0DA4D95B9BA52E62964F1A4AB302E /* Pods-ZHYPhoto-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHYPhoto-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0D86191F1D2B4FB0CCF9F33DD9ECF592 /* Album.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
-		1304E5765E69BD843549DE97DA467FE4 /* CustomPhotoAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomPhotoAlbum.m; sourceTree = "<group>"; };
-		1E02E2E15D6E19577684BE94C9D8AB79 /* CertificateCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CertificateCellModel.h; sourceTree = "<group>"; };
-		1FB68FB1C47F44664C4684037B25A7E9 /* ZHYPhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHYPhoto-umbrella.h"; sourceTree = "<group>"; };
-		24D04A3AA35E7E49128620FD07AEA227 /* ZHYPhoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZHYPhoto.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2BC3D977748B5CF0A233043C00A57DDF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0A822734715ECEFFDF4FC473245C6432 /* ImagesScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImagesScrollView.h; sourceTree = "<group>"; };
+		0CB031EAFC47F33DF6791ED216EFF07C /* ChooseLicenseAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChooseLicenseAccessoryView.m; sourceTree = "<group>"; };
+		0DD2EABF98E40394D86C6C38B340E8A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		20F018251F0D792A51E70E9F2652AB7F /* CertificateTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CertificateTableViewCell.xib; sourceTree = "<group>"; };
+		22D7EA90521F281A2E3C41996BCEF990 /* CustomPhotoAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomPhotoAlbum.h; sourceTree = "<group>"; };
+		236FF3C1DB472B964243BFC28928C500 /* CustomPhotoAlbumPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomPhotoAlbumPreviewView.m; sourceTree = "<group>"; };
+		27C7E56D7005388E24866F5157F96D46 /* ZHYPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZHYPhoto-Info.plist"; sourceTree = "<group>"; };
+		285FDDDE8385EEEA4A6440C6A277F8B8 /* CustomCameraVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomCameraVC.xib; sourceTree = "<group>"; };
+		28F19337C5C2880D625CE369AC90718F /* CustomCameraCVCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomCameraCVCell.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		36CD377F7F57F92C5F2CCBB5CA6A3F45 /* CustomCameraUsePhotoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomCameraUsePhotoView.h; sourceTree = "<group>"; };
-		37883B8DAD348A96790115F50475B2F1 /* CertificateCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CertificateCellModel.m; sourceTree = "<group>"; };
-		4A21B96D1BE8CB4CE231C0798A794CBE /* ChooseLicenseAccessoryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ChooseLicenseAccessoryView.xib; sourceTree = "<group>"; };
-		4BE728780B6EAE2231B6C8AACACA8B24 /* Pods_ZHYPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHYPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		458C67DA550B0E0F7AF9BEA07DB371CE /* ZHYPhoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHYPhoto.xcconfig; sourceTree = "<group>"; };
+		4791EFC1C21BF054A3DAD0FC60C2ADCD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4BE728780B6EAE2231B6C8AACACA8B24 /* Pods_ZHYPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZHYPhoto.framework; path = "Pods-ZHYPhoto.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD8B7EF2FDC367D3B8B17B0F29E246B /* CertificateCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CertificateCollectionViewCell.m; sourceTree = "<group>"; };
 		4F4F9167302531C4640EE884C7EB701D /* Pods-ZHYPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHYPhoto.debug.xcconfig"; sourceTree = "<group>"; };
 		5254CE58AC811119CF4CEC5F6C771E40 /* Pods-ZHYPhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHYPhoto-dummy.m"; sourceTree = "<group>"; };
-		58B66E0A40D58668378877EC6ABE6134 /* CustomPhotoAlbum.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomPhotoAlbum.xib; sourceTree = "<group>"; };
-		59A3E1978F1C24C5FE2A6B213432408A /* ImagesScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImagesScrollView.m; sourceTree = "<group>"; };
-		5B2E09C361A3FFFBBCDCF5291601CDCF /* ZHYPhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHYPhoto.modulemap; sourceTree = "<group>"; };
-		60106FB59EAA30114DD08621B1717F44 /* ZHYPhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHYPhoto-prefix.pch"; sourceTree = "<group>"; };
-		622306778C0C7FF194B6E1EF5E0C6A01 /* ChooseLicenseAccessoryVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChooseLicenseAccessoryVC.h; sourceTree = "<group>"; };
+		542018E471FFEAEA33E249DE74DA0DF4 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		55E4EFE3DB21BB3E530FC0F661110BEE /* Album.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		572C40A3EB1517AE6F857F1AB9A4BFF3 /* AlbumTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlbumTool.m; sourceTree = "<group>"; };
 		63AFC51EC11090389B86139CA2747BB9 /* Pods-ZHYPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHYPhoto-Info.plist"; sourceTree = "<group>"; };
-		6536A69055A35F9C0A520B88C260C94E /* CertificateCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CertificateCollectionViewCell.xib; sourceTree = "<group>"; };
-		6A12E6778577341D2B1F59469FC3F61F /* CustomCameraCVCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomCameraCVCell.xib; sourceTree = "<group>"; };
-		6E34BBB8AFB6821E9C0674F0D7834244 /* CertificateTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CertificateTableViewCell.m; sourceTree = "<group>"; };
-		6EC9B94AFC55DBADB2618E133EDC4831 /* ImagesScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImagesScrollView.h; sourceTree = "<group>"; };
-		744E718AE50B7891D71489735AFC3633 /* CustomPhotoAlbumPreviewView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomPhotoAlbumPreviewView.xib; sourceTree = "<group>"; };
-		75E0F3AB773DB5E97E64CA181A60F759 /* CertificateCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CertificateCollectionViewCell.h; sourceTree = "<group>"; };
-		771B3B130CC5993AB5B646CCDDCDD96B /* CertificateTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CertificateTableViewCell.xib; sourceTree = "<group>"; };
-		7BB19FF410FB135C8AEBF28795FE75E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		805B2370539C13E0F6FF85CE260417B5 /* ImageDirectionTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImageDirectionTool.m; sourceTree = "<group>"; };
-		825B7B623DA4F164BD81602B028E09A9 /* CustomCameraCVCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomCameraCVCell.h; sourceTree = "<group>"; };
-		8478D1A2BFB24730105F636A91F9856D /* ZHYPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHYPhoto.h; path = Source/ZHYPhoto.h; sourceTree = "<group>"; };
+		683D65D90DDC900A53E3E79B3289BF55 /* Album.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		6F1A92BD85B65EB25D14AF83D5A7A52D /* CustomPhotoAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomPhotoAlbum.m; sourceTree = "<group>"; };
+		75DE4AF024988ECA052D8760586A72C7 /* CustomCameraUsePhotoView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomCameraUsePhotoView.xib; sourceTree = "<group>"; };
+		768A973E4D26D4CC936DDC62E76507F8 /* ImageDirectionTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageDirectionTool.h; sourceTree = "<group>"; };
+		7A423BBF3FCF9A9DB6691FCE3BD074DB /* CustomCameraCVCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomCameraCVCell.xib; sourceTree = "<group>"; };
+		8339E50E1E93B16229ACAC26E6445052 /* ChooseLicenseAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChooseLicenseAccessoryView.h; sourceTree = "<group>"; };
 		84AF2F7CE65742D779932E595DFC921B /* Pods-ZHYPhoto-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHYPhoto-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CDDAFE45CFCE1F6308515F7F925D2E5 /* ChooseLicenseAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChooseLicenseAccessoryView.h; sourceTree = "<group>"; };
-		8EF3CDED7545B810428CB3133BB7DFB5 /* ZHYPhoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHYPhoto.xcconfig; sourceTree = "<group>"; };
-		97C993AE741772C4FB6FEB03C6CF512F /* ZHYPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZHYPhoto-Info.plist"; sourceTree = "<group>"; };
-		994B8764E4F83640E3477674392746FF /* CertificateTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CertificateTableViewCell.h; sourceTree = "<group>"; };
-		995DF2FAFAC6A568B15FEF447E62C72C /* ZHYPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHYPhoto.m; path = Source/ZHYPhoto.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7C1C5DC2F228C35EF32909919813A00 /* ImageDirectionTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageDirectionTool.h; sourceTree = "<group>"; };
-		AF6F10B30BD562108F9A4D02E3374359 /* Album.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		8B85DA75DA1B34E82B6EFFC93280F61F /* CustomCameraVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomCameraVC.m; sourceTree = "<group>"; };
+		8CC2AC85806575E3A15B1D0E1215A524 /* CertificateCellModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CertificateCellModel.h; sourceTree = "<group>"; };
+		92311CB5D046940E39B4F9B15788BC49 /* ZHYPhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHYPhoto-prefix.pch"; sourceTree = "<group>"; };
+		9BB22510BC97DDDD820260CFCFDB51F3 /* CertificateTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CertificateTableViewCell.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A023FBEA4DD1C1F047E085EE798A8F43 /* ChooseLicenseAccessoryVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChooseLicenseAccessoryVC.m; sourceTree = "<group>"; };
+		A1EDE1B739C6F0FB2D97EE5B4EABFC90 /* CertificateTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CertificateTableViewCell.m; sourceTree = "<group>"; };
+		A277C17431812D9EFDFBD1AE6BE5F3BB /* ImageDirectionTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImageDirectionTool.m; sourceTree = "<group>"; };
+		A384BB7E463A07B1BD96F1C36D6E9498 /* AlbumTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlbumTool.h; sourceTree = "<group>"; };
+		A4CA8FE6E5C1B89F7F89CA00DAEA6A98 /* README.mdown */ = {isa = PBXFileReference; includeInIndex = 1; path = README.mdown; sourceTree = "<group>"; };
+		A6B8DDA6187ABD3C0B57840820499B6C /* ZHYPhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHYPhoto-dummy.m"; sourceTree = "<group>"; };
+		A7375C31613A14D144717E1373A36986 /* CustomPhotoAlbumPreviewView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomPhotoAlbumPreviewView.xib; sourceTree = "<group>"; };
+		A8ACC8BF4B13065A3445A9FAD88960EE /* CustomCameraCVCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomCameraCVCell.m; sourceTree = "<group>"; };
+		AA0953F8680FE9EEFA0B768113F9A87C /* ChooseLicenseAccessoryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ChooseLicenseAccessoryView.xib; sourceTree = "<group>"; };
+		ADA9C55445C96D16C90B1214A6DA6D7A /* CertificateCellModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CertificateCellModel.m; sourceTree = "<group>"; };
 		B0F51FBEC8429201C52A1B950BBF2482 /* Pods-ZHYPhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHYPhoto.modulemap"; sourceTree = "<group>"; };
-		B9133A0F8CA8FAE434652622F16EEE7B /* CustomCameraUsePhotoView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomCameraUsePhotoView.xib; sourceTree = "<group>"; };
+		B246C7ED75EA8363E010574B5E7517DF /* ZHYPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZHYPhoto.m; path = Source/ZHYPhoto.m; sourceTree = "<group>"; };
 		BBB8CE6EA6480987C5112A36AB2101B9 /* Pods-ZHYPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHYPhoto.release.xcconfig"; sourceTree = "<group>"; };
-		BC2B900FAE39BD95CB3B8487E0495811 /* CustomPhotoAlbumPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomPhotoAlbumPreviewView.h; sourceTree = "<group>"; };
-		BDE3A2DD5BFF287A96BA83811AEFD583 /* ZHYPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZHYPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE3A2DD5BFF287A96BA83811AEFD583 /* ZHYPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZHYPhoto.framework; path = ZHYPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE69AB5B77AD42C5B8107DB075EA384D /* ZHYPhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHYPhoto-umbrella.h"; sourceTree = "<group>"; };
 		C32F0ED480593CCB4F2F4603B4D55A0C /* Pods-ZHYPhoto-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHYPhoto-frameworks.sh"; sourceTree = "<group>"; };
-		C8FA69EFCFA9D825CD9ED7D8BBD60DBC /* CustomCameraVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomCameraVC.xib; sourceTree = "<group>"; };
-		CC28271EE380F5167CB1BC727C794443 /* ZHYPhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHYPhoto-dummy.m"; sourceTree = "<group>"; };
-		CCBFC4D214C387EC8FCD47EA68A138D7 /* CertificateCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CertificateCollectionViewCell.m; sourceTree = "<group>"; };
-		CE824D4D2FB36CA4E645FFC8CF596DB0 /* CustomPhotoAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomPhotoAlbum.h; sourceTree = "<group>"; };
-		CE9811817EF7957686804F8EB8DB4CAC /* ChooseLicenseAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChooseLicenseAccessoryView.m; sourceTree = "<group>"; };
-		D2F2F878B68BF5957D75343D96E0F240 /* ChooseLicenseAccessoryVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChooseLicenseAccessoryVC.m; sourceTree = "<group>"; };
-		D7E223BBC0F8C796D8214816643F0696 /* CustomPhotoAlbumPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomPhotoAlbumPreviewView.m; sourceTree = "<group>"; };
-		D92BD7BC42C03248996871785FC8CCE9 /* CustomCameraVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomCameraVC.m; sourceTree = "<group>"; };
-		E40815127E5320295EA2832B4952AF72 /* AlbumTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlbumTool.h; sourceTree = "<group>"; };
-		F1B2BF89BD27B940AF01D866655D12A7 /* CustomCameraCVCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomCameraCVCell.m; sourceTree = "<group>"; };
-		F995BF20F5490EEF69C8FAA5E1397FF9 /* AlbumTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AlbumTool.m; sourceTree = "<group>"; };
-		FA58483ABD610E017FDB17A76059539E /* CustomCameraUsePhotoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomCameraUsePhotoView.m; sourceTree = "<group>"; };
+		C58D5588E01CC2772842FDFA9B00B12A /* ChooseLicenseAccessoryVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChooseLicenseAccessoryVC.h; sourceTree = "<group>"; };
+		C6039356E29C3A5787D6702A7F930D50 /* ZHYPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZHYPhoto.h; path = Source/ZHYPhoto.h; sourceTree = "<group>"; };
+		D12759F9B7256BF175536361BB0C1FC0 /* CustomPhotoAlbum.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomPhotoAlbum.xib; sourceTree = "<group>"; };
+		D20E62EF14BE9E40F11D35BF4B32DE94 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D27F86248FFEEF4CEE55E8F34299C599 /* CertificateCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CertificateCollectionViewCell.xib; sourceTree = "<group>"; };
+		D4152ABD2E28F8C99A003D7A9675A208 /* CustomCameraVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomCameraVC.h; sourceTree = "<group>"; };
+		D786D590ED4A43899051A109394F5D48 /* CustomCameraUsePhotoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomCameraUsePhotoView.m; sourceTree = "<group>"; };
+		E45C43BD50F0864D96F65441B5B8B72C /* ImagesScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImagesScrollView.m; sourceTree = "<group>"; };
+		EB7A417DEC052629C6C48BD2BB24FD62 /* CustomCameraUsePhotoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomCameraUsePhotoView.h; sourceTree = "<group>"; };
+		F10ADFE0697FE9EEB52078B09F557B9B /* CertificateCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CertificateCollectionViewCell.h; sourceTree = "<group>"; };
+		F859E40C84676ECA236C72E2A1C4F629 /* ZHYPhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHYPhoto.modulemap; sourceTree = "<group>"; };
+		FC4CFF1D91F3FEDE8AE56916ADDB66FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FD7B2565C31BD7A522C1F29862158633 /* CustomPhotoAlbumPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomPhotoAlbumPreviewView.h; sourceTree = "<group>"; };
 		FE00D27594F37D05984F930EC4F209EC /* Pods-ZHYPhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHYPhoto-umbrella.h"; sourceTree = "<group>"; };
-		FF9D03C84778B4D8ABE132000FC58F6D /* CustomCameraVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomCameraVC.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,56 +143,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA6D05BE834BBE139C7CE5F43885A04E /* Frameworks */ = {
+		F0D19C563F756A953D2DE6F885212E1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E98148B6A479A72AEDE4531CF9D08EA /* Foundation.framework in Frameworks */,
+				7BAD0723E361CE4F01361A163C78E50E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19006962300B22D8BD395E36E954986C /* Pod */ = {
+		041F8C0A10425D12B45FA23D172214FC /* 相机胶卷 */ = {
 			isa = PBXGroup;
 			children = (
-				7BB19FF410FB135C8AEBF28795FE75E6 /* LICENSE */,
-				2BC3D977748B5CF0A233043C00A57DDF /* README.md */,
-				24D04A3AA35E7E49128620FD07AEA227 /* ZHYPhoto.podspec */,
+				22D7EA90521F281A2E3C41996BCEF990 /* CustomPhotoAlbum.h */,
+				6F1A92BD85B65EB25D14AF83D5A7A52D /* CustomPhotoAlbum.m */,
+				D12759F9B7256BF175536361BB0C1FC0 /* CustomPhotoAlbum.xib */,
+				FD7B2565C31BD7A522C1F29862158633 /* CustomPhotoAlbumPreviewView.h */,
+				236FF3C1DB472B964243BFC28928C500 /* CustomPhotoAlbumPreviewView.m */,
+				A7375C31613A14D144717E1373A36986 /* CustomPhotoAlbumPreviewView.xib */,
 			);
-			name = Pod;
+			name = "相机胶卷";
+			path = "Source/相机胶卷";
 			sourceTree = "<group>";
 		};
-		21CC428DAACDC51A7D66BB28846EC661 /* cell部分 */ = {
+		3F32D2BE9433CC7F90036D498DA70B85 /* 照相模块 */ = {
 			isa = PBXGroup;
 			children = (
-				75E0F3AB773DB5E97E64CA181A60F759 /* CertificateCollectionViewCell.h */,
-				CCBFC4D214C387EC8FCD47EA68A138D7 /* CertificateCollectionViewCell.m */,
-				6536A69055A35F9C0A520B88C260C94E /* CertificateCollectionViewCell.xib */,
-				994B8764E4F83640E3477674392746FF /* CertificateTableViewCell.h */,
-				6E34BBB8AFB6821E9C0674F0D7834244 /* CertificateTableViewCell.m */,
-				771B3B130CC5993AB5B646CCDDCDD96B /* CertificateTableViewCell.xib */,
-			);
-			name = "cell部分";
-			path = "Source/cell部分";
-			sourceTree = "<group>";
-		};
-		3B298470B5BC64A2D92A1D957606044C /* 照相模块 */ = {
-			isa = PBXGroup;
-			children = (
-				825B7B623DA4F164BD81602B028E09A9 /* CustomCameraCVCell.h */,
-				F1B2BF89BD27B940AF01D866655D12A7 /* CustomCameraCVCell.m */,
-				6A12E6778577341D2B1F59469FC3F61F /* CustomCameraCVCell.xib */,
-				36CD377F7F57F92C5F2CCBB5CA6A3F45 /* CustomCameraUsePhotoView.h */,
-				FA58483ABD610E017FDB17A76059539E /* CustomCameraUsePhotoView.m */,
-				B9133A0F8CA8FAE434652622F16EEE7B /* CustomCameraUsePhotoView.xib */,
-				FF9D03C84778B4D8ABE132000FC58F6D /* CustomCameraVC.h */,
-				D92BD7BC42C03248996871785FC8CCE9 /* CustomCameraVC.m */,
-				C8FA69EFCFA9D825CD9ED7D8BBD60DBC /* CustomCameraVC.xib */,
+				28F19337C5C2880D625CE369AC90718F /* CustomCameraCVCell.h */,
+				A8ACC8BF4B13065A3445A9FAD88960EE /* CustomCameraCVCell.m */,
+				7A423BBF3FCF9A9DB6691FCE3BD074DB /* CustomCameraCVCell.xib */,
+				EB7A417DEC052629C6C48BD2BB24FD62 /* CustomCameraUsePhotoView.h */,
+				D786D590ED4A43899051A109394F5D48 /* CustomCameraUsePhotoView.m */,
+				75DE4AF024988ECA052D8760586A72C7 /* CustomCameraUsePhotoView.xib */,
+				D4152ABD2E28F8C99A003D7A9675A208 /* CustomCameraVC.h */,
+				8B85DA75DA1B34E82B6EFFC93280F61F /* CustomCameraVC.m */,
+				285FDDDE8385EEEA4A6440C6A277F8B8 /* CustomCameraVC.xib */,
 			);
 			name = "照相模块";
 			path = "Source/照相模块";
+			sourceTree = "<group>";
+		};
+		559FFA3489EAEF2ADD51142A415DA145 /* cell部分 */ = {
+			isa = PBXGroup;
+			children = (
+				F10ADFE0697FE9EEB52078B09F557B9B /* CertificateCollectionViewCell.h */,
+				4CD8B7EF2FDC367D3B8B17B0F29E246B /* CertificateCollectionViewCell.m */,
+				D27F86248FFEEF4CEE55E8F34299C599 /* CertificateCollectionViewCell.xib */,
+				9BB22510BC97DDDD820260CFCFDB51F3 /* CertificateTableViewCell.h */,
+				A1EDE1B739C6F0FB2D97EE5B4EABFC90 /* CertificateTableViewCell.m */,
+				20F018251F0D792A51E70E9F2652AB7F /* CertificateTableViewCell.xib */,
+			);
+			name = "cell部分";
+			path = "Source/cell部分";
 			sourceTree = "<group>";
 		};
 		571FB7D7F2DDC333984A2327C4CE2113 /* Products */ = {
@@ -204,12 +216,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7EE0AE6B77EA5BD0FA529E90B8BEEDFA /* Development Pods */ = {
+		730154E74AE4898AF5F1FBD185BD0F2A /* 选择证照附件 */ = {
 			isa = PBXGroup;
 			children = (
-				EEEF37CFF409CAAAEB36931635F89DD2 /* ZHYPhoto */,
+				C58D5588E01CC2772842FDFA9B00B12A /* ChooseLicenseAccessoryVC.h */,
+				A023FBEA4DD1C1F047E085EE798A8F43 /* ChooseLicenseAccessoryVC.m */,
+				8339E50E1E93B16229ACAC26E6445052 /* ChooseLicenseAccessoryView.h */,
+				0CB031EAFC47F33DF6791ED216EFF07C /* ChooseLicenseAccessoryView.m */,
+				AA0953F8680FE9EEFA0B768113F9A87C /* ChooseLicenseAccessoryView.xib */,
 			);
-			name = "Development Pods";
+			name = "选择证照附件";
+			path = "Source/选择证照附件";
+			sourceTree = "<group>";
+		};
+		90637395D4B2441EB3D7E6E9251B32D1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0DD2EABF98E40394D86C6C38B340E8A6 /* LICENSE */,
+				4791EFC1C21BF054A3DAD0FC60C2ADCD /* README.md */,
+				009F1AC43DCADD93B944369209AD407F /* ZHYPhoto.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		921CA758B9427E1BC2722B710C367BD0 /* Pods-ZHYPhoto */ = {
@@ -229,63 +256,49 @@
 			path = "Target Support Files/Pods-ZHYPhoto";
 			sourceTree = "<group>";
 		};
-		9D2BFE3F066019610689EE9A3ABD2F28 /* Tool */ = {
+		9D5BC9CADC81DCD035FB6211B6AF9B08 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D86191F1D2B4FB0CCF9F33DD9ECF592 /* Album.h */,
-				AF6F10B30BD562108F9A4D02E3374359 /* Album.m */,
-				E40815127E5320295EA2832B4952AF72 /* AlbumTool.h */,
-				F995BF20F5490EEF69C8FAA5E1397FF9 /* AlbumTool.m */,
-				1E02E2E15D6E19577684BE94C9D8AB79 /* CertificateCellModel.h */,
-				37883B8DAD348A96790115F50475B2F1 /* CertificateCellModel.m */,
-				A7C1C5DC2F228C35EF32909919813A00 /* ImageDirectionTool.h */,
-				805B2370539C13E0F6FF85CE260417B5 /* ImageDirectionTool.m */,
-				6EC9B94AFC55DBADB2618E133EDC4831 /* ImagesScrollView.h */,
-				59A3E1978F1C24C5FE2A6B213432408A /* ImagesScrollView.m */,
-			);
-			name = Tool;
-			path = Source/Tool;
-			sourceTree = "<group>";
-		};
-		9FDCBBD80DACE810E307B99DC088B8A9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5B2E09C361A3FFFBBCDCF5291601CDCF /* ZHYPhoto.modulemap */,
-				8EF3CDED7545B810428CB3133BB7DFB5 /* ZHYPhoto.xcconfig */,
-				CC28271EE380F5167CB1BC727C794443 /* ZHYPhoto-dummy.m */,
-				97C993AE741772C4FB6FEB03C6CF512F /* ZHYPhoto-Info.plist */,
-				60106FB59EAA30114DD08621B1717F44 /* ZHYPhoto-prefix.pch */,
-				1FB68FB1C47F44664C4684037B25A7E9 /* ZHYPhoto-umbrella.h */,
+				F859E40C84676ECA236C72E2A1C4F629 /* ZHYPhoto.modulemap */,
+				458C67DA550B0E0F7AF9BEA07DB371CE /* ZHYPhoto.xcconfig */,
+				A6B8DDA6187ABD3C0B57840820499B6C /* ZHYPhoto-dummy.m */,
+				27C7E56D7005388E24866F5157F96D46 /* ZHYPhoto-Info.plist */,
+				92311CB5D046940E39B4F9B15788BC49 /* ZHYPhoto-prefix.pch */,
+				BE69AB5B77AD42C5B8107DB075EA384D /* ZHYPhoto-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Demo/ZHYPhotoDemo/Pods/Target Support Files/ZHYPhoto";
 			sourceTree = "<group>";
 		};
-		AC07367C199A8FEC53EA799FDA27A9BF /* 选择证照附件 */ = {
+		A6E1BD4A15E86E2CE2FA28D672F6A3CE /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				622306778C0C7FF194B6E1EF5E0C6A01 /* ChooseLicenseAccessoryVC.h */,
-				D2F2F878B68BF5957D75343D96E0F240 /* ChooseLicenseAccessoryVC.m */,
-				8CDDAFE45CFCE1F6308515F7F925D2E5 /* ChooseLicenseAccessoryView.h */,
-				CE9811817EF7957686804F8EB8DB4CAC /* ChooseLicenseAccessoryView.m */,
-				4A21B96D1BE8CB4CE231C0798A794CBE /* ChooseLicenseAccessoryView.xib */,
+				FC4CFF1D91F3FEDE8AE56916ADDB66FD /* LICENSE */,
+				D20E62EF14BE9E40F11D35BF4B32DE94 /* MBProgressHUD.h */,
+				542018E471FFEAEA33E249DE74DA0DF4 /* MBProgressHUD.m */,
+				A4CA8FE6E5C1B89F7F89CA00DAEA6A98 /* README.mdown */,
 			);
-			name = "选择证照附件";
-			path = "Source/选择证照附件";
+			name = MBProgressHUD;
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		BF81C4362796DEC083523B31D3C26E5D /* 相机胶卷 */ = {
+		AE2B444D85649511669D79B9BA9A907C /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				CE824D4D2FB36CA4E645FFC8CF596DB0 /* CustomPhotoAlbum.h */,
-				1304E5765E69BD843549DE97DA467FE4 /* CustomPhotoAlbum.m */,
-				58B66E0A40D58668378877EC6ABE6134 /* CustomPhotoAlbum.xib */,
-				BC2B900FAE39BD95CB3B8487E0495811 /* CustomPhotoAlbumPreviewView.h */,
-				D7E223BBC0F8C796D8214816643F0696 /* CustomPhotoAlbumPreviewView.m */,
-				744E718AE50B7891D71489735AFC3633 /* CustomPhotoAlbumPreviewView.xib */,
+				683D65D90DDC900A53E3E79B3289BF55 /* Album.h */,
+				55E4EFE3DB21BB3E530FC0F661110BEE /* Album.m */,
+				A384BB7E463A07B1BD96F1C36D6E9498 /* AlbumTool.h */,
+				572C40A3EB1517AE6F857F1AB9A4BFF3 /* AlbumTool.m */,
+				8CC2AC85806575E3A15B1D0E1215A524 /* CertificateCellModel.h */,
+				ADA9C55445C96D16C90B1214A6DA6D7A /* CertificateCellModel.m */,
+				768A973E4D26D4CC936DDC62E76507F8 /* ImageDirectionTool.h */,
+				A277C17431812D9EFDFBD1AE6BE5F3BB /* ImageDirectionTool.m */,
+				0A822734715ECEFFDF4FC473245C6432 /* ImagesScrollView.h */,
+				E45C43BD50F0864D96F65441B5B8B72C /* ImagesScrollView.m */,
+				A6E1BD4A15E86E2CE2FA28D672F6A3CE /* MBProgressHUD */,
 			);
-			name = "相机胶卷";
-			path = "Source/相机胶卷";
+			name = Tool;
+			path = Source/Tool;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -300,7 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7EE0AE6B77EA5BD0FA529E90B8BEEDFA /* Development Pods */,
+				EDBB25F2420F8D0DF042CCE68B1F7E3E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				571FB7D7F2DDC333984A2327C4CE2113 /* Products */,
 				6ECBDA2D2F2CDE34082D81863FA1CD09 /* Targets Support Files */,
@@ -315,18 +328,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EEEF37CFF409CAAAEB36931635F89DD2 /* ZHYPhoto */ = {
+		EDBB25F2420F8D0DF042CCE68B1F7E3E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8478D1A2BFB24730105F636A91F9856D /* ZHYPhoto.h */,
-				995DF2FAFAC6A568B15FEF447E62C72C /* ZHYPhoto.m */,
-				21CC428DAACDC51A7D66BB28846EC661 /* cell部分 */,
-				19006962300B22D8BD395E36E954986C /* Pod */,
-				9FDCBBD80DACE810E307B99DC088B8A9 /* Support Files */,
-				9D2BFE3F066019610689EE9A3ABD2F28 /* Tool */,
-				3B298470B5BC64A2D92A1D957606044C /* 照相模块 */,
-				BF81C4362796DEC083523B31D3C26E5D /* 相机胶卷 */,
-				AC07367C199A8FEC53EA799FDA27A9BF /* 选择证照附件 */,
+				F4317DDA08FCE8B510454539DCAA224B /* ZHYPhoto */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F4317DDA08FCE8B510454539DCAA224B /* ZHYPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				C6039356E29C3A5787D6702A7F930D50 /* ZHYPhoto.h */,
+				B246C7ED75EA8363E010574B5E7517DF /* ZHYPhoto.m */,
+				559FFA3489EAEF2ADD51142A415DA145 /* cell部分 */,
+				90637395D4B2441EB3D7E6E9251B32D1 /* Pod */,
+				9D5BC9CADC81DCD035FB6211B6AF9B08 /* Support Files */,
+				AE2B444D85649511669D79B9BA9A907C /* Tool */,
+				3F32D2BE9433CC7F90036D498DA70B85 /* 照相模块 */,
+				041F8C0A10425D12B45FA23D172214FC /* 相机胶卷 */,
+				730154E74AE4898AF5F1FBD185BD0F2A /* 选择证照附件 */,
 			);
 			name = ZHYPhoto;
 			path = ../../..;
@@ -335,26 +356,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		899E4A398C28AE7FBA929D0F84AD1188 /* Headers */ = {
+		052404408323865891BCA33F2E530BD0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0541D6D6B2E870A450794199F6B95F63 /* Album.h in Headers */,
-				D52CA98C1418E095E58B6C2C2E72C841 /* AlbumTool.h in Headers */,
-				2A4D801A8516CA0CF7257B8C532111AB /* CertificateCellModel.h in Headers */,
-				5B465FD93174483510A27D323D3A9D7C /* CertificateCollectionViewCell.h in Headers */,
-				63A90C43B87AF599B3F647E866BDE7AA /* CertificateTableViewCell.h in Headers */,
-				54DC2D3CD7973C5A0C8C6C4F0360C12B /* ChooseLicenseAccessoryVC.h in Headers */,
-				24313C224D28CDCFDF5DEFB398D87102 /* ChooseLicenseAccessoryView.h in Headers */,
-				BEFC388B0679DB31B0064C83C73D2C54 /* CustomCameraCVCell.h in Headers */,
-				4D67F739E076D2D0E25877B46360AD17 /* CustomCameraUsePhotoView.h in Headers */,
-				2F8355F91D1A4D9BBC5633C41E031F56 /* CustomCameraVC.h in Headers */,
-				4557DFDE1DDDA27CBAB561076690F704 /* CustomPhotoAlbum.h in Headers */,
-				74093F1D854333C576E65726C5251DE1 /* CustomPhotoAlbumPreviewView.h in Headers */,
-				2E24659753316BFE54685BFA36265AB5 /* ImageDirectionTool.h in Headers */,
-				899F222E497F0EEAB0A271FAFE530E02 /* ImagesScrollView.h in Headers */,
-				067075AD3535AFA2D34528B4DA35FCAF /* ZHYPhoto-umbrella.h in Headers */,
-				ADB5F43A4FCAD909AF3040FB9F1A1397 /* ZHYPhoto.h in Headers */,
+				E9782396E6F015EBE510DC037381BB06 /* Album.h in Headers */,
+				473C759C6C5F279169183EB214B7DB2A /* AlbumTool.h in Headers */,
+				1D29F2ED81629859393959EB63C66EF8 /* CertificateCellModel.h in Headers */,
+				AAE75D0406C137DC3BEE8C4C3064C491 /* CertificateCollectionViewCell.h in Headers */,
+				A71BF4F24077A2E5AA96EDCEA98260D1 /* CertificateTableViewCell.h in Headers */,
+				C91AE21BA1E33AE4905E205A806161A3 /* ChooseLicenseAccessoryVC.h in Headers */,
+				78F6B1DECC4E9BAC9DC367A88E659426 /* ChooseLicenseAccessoryView.h in Headers */,
+				C3D9C951C20820D80D510D132DC82835 /* CustomCameraCVCell.h in Headers */,
+				47E4925DBA08791E9F9E2C6AA5B1D4DB /* CustomCameraUsePhotoView.h in Headers */,
+				04F6F1257D22FF4D8ADE44AE385FB3D3 /* CustomCameraVC.h in Headers */,
+				F767C2579DFBA620F1E6DA298F82D04F /* CustomPhotoAlbum.h in Headers */,
+				02050E5EE34375D7B9C1DAD742FF8173 /* CustomPhotoAlbumPreviewView.h in Headers */,
+				190BB5A8331E986E63027805F24ABAA2 /* ImageDirectionTool.h in Headers */,
+				2C6EAF77460443E7996404B66EE5A804 /* ImagesScrollView.h in Headers */,
+				B54656FACCF83AD9DADD52CCB54AFDCD /* MBProgressHUD.h in Headers */,
+				5852AC6380914FBE3E988274F0CC0DEC /* ZHYPhoto-umbrella.h in Headers */,
+				1BDC886D12D59AD408C3A4EC1896B7B6 /* ZHYPhoto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,12 +393,12 @@
 /* Begin PBXNativeTarget section */
 		0688BEFD1AE9BC7876E75F6F1ADF8992 /* ZHYPhoto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E86B4FE0DDECB27640DED404AAE57D5 /* Build configuration list for PBXNativeTarget "ZHYPhoto" */;
+			buildConfigurationList = C12FE1D0574624E4C3073F8DD39258FD /* Build configuration list for PBXNativeTarget "ZHYPhoto" */;
 			buildPhases = (
-				899E4A398C28AE7FBA929D0F84AD1188 /* Headers */,
-				5AEFAE8599FD33D96EA6AD4F2CD07719 /* Sources */,
-				DA6D05BE834BBE139C7CE5F43885A04E /* Frameworks */,
-				823819F6A10475DA9788244E6EA24FBC /* Resources */,
+				052404408323865891BCA33F2E530BD0 /* Headers */,
+				B92C66C98F42D52F5CFD9AEC083422C8 /* Sources */,
+				F0D19C563F756A953D2DE6F885212E1F /* Frameworks */,
+				84DC527AF86876387F17307F63C63247 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -441,7 +463,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		823819F6A10475DA9788244E6EA24FBC /* Resources */ = {
+		84DC527AF86876387F17307F63C63247 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,42 +473,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5AEFAE8599FD33D96EA6AD4F2CD07719 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0B23B3B767D1B1F74B2012E6A5C66DFA /* Album.m in Sources */,
-				68942291F7197AB24EC51F607455DE8E /* AlbumTool.m in Sources */,
-				C5083D0EF73DF15F00B5031B720E28E3 /* CertificateCellModel.m in Sources */,
-				DC21BC4483334CE42B599868BEEA2737 /* CertificateCollectionViewCell.m in Sources */,
-				884709D2F27AFE6A6A72E85838A74CBA /* CertificateCollectionViewCell.xib in Sources */,
-				C9D346BB020132E7DEFEEF4FCBC75A0B /* CertificateTableViewCell.m in Sources */,
-				D50BE3710BFA91F7E26FD4F8BCF3070A /* CertificateTableViewCell.xib in Sources */,
-				610C43B7509B8446DA9B912B286DE431 /* ChooseLicenseAccessoryVC.m in Sources */,
-				B8E293A3FC1ED64AE0B81DA16A96F771 /* ChooseLicenseAccessoryView.m in Sources */,
-				BED57686245611AC88AB452928F36B66 /* ChooseLicenseAccessoryView.xib in Sources */,
-				44C26FFA67BC20E3EE3DF3D776F1FBE1 /* CustomCameraCVCell.m in Sources */,
-				11081C8F47E3887B762055B4ED9564C7 /* CustomCameraCVCell.xib in Sources */,
-				9DA7812F750204B22A6013217E422DCF /* CustomCameraUsePhotoView.m in Sources */,
-				EA5816F520E073F750FC888992B82668 /* CustomCameraUsePhotoView.xib in Sources */,
-				C2222791B2F2BF808AAEFF6FE2331E6A /* CustomCameraVC.m in Sources */,
-				87DBBAACB14768FC09E109DCEAD7DF2D /* CustomCameraVC.xib in Sources */,
-				3E1CA1D634B27F28C2239CD7B4C19AFE /* CustomPhotoAlbum.m in Sources */,
-				98B8CF283D8872463AFB6088DAE7AB0D /* CustomPhotoAlbum.xib in Sources */,
-				254094229990F0A7CD0A9AFB3859B95C /* CustomPhotoAlbumPreviewView.m in Sources */,
-				11609AAD32B12A96A75308C971FC060D /* CustomPhotoAlbumPreviewView.xib in Sources */,
-				E845F3E49318945BE0A82D45043C5E7B /* ImageDirectionTool.m in Sources */,
-				6D7B224A2B866F19F37D7EBE5AD31590 /* ImagesScrollView.m in Sources */,
-				FA040D940D6E465F2CA5A8C1064EAECB /* ZHYPhoto-dummy.m in Sources */,
-				79C7201DCFA6A273B99E3AB28CA46E27 /* ZHYPhoto.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B7BA379DFF2B1F8A98EFDA64FD822DE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				82760143E4D237D14AB5049BF0E04FCD /* Pods-ZHYPhoto-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92C66C98F42D52F5CFD9AEC083422C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0098EBD746EB37DFA63F7B64417EC8 /* Album.m in Sources */,
+				0DD790A7263E3BEFBAF63F4920F27632 /* AlbumTool.m in Sources */,
+				B1FEE9715446CF2CDC63A21324C64DEA /* CertificateCellModel.m in Sources */,
+				7C79B7A1616549A39F509290B6F737BD /* CertificateCollectionViewCell.m in Sources */,
+				45389F606665A06986F7E6E4089AB598 /* CertificateCollectionViewCell.xib in Sources */,
+				7B512D879AC0151676F244AE5A0F467B /* CertificateTableViewCell.m in Sources */,
+				8F4330B3C6E7BD0FA585D392446C9948 /* CertificateTableViewCell.xib in Sources */,
+				BCF6023B3B7E43E79C7CB46FE2ED1908 /* ChooseLicenseAccessoryVC.m in Sources */,
+				773488CBFF752E52D77D3E2327BC02E9 /* ChooseLicenseAccessoryView.m in Sources */,
+				638E2310BD10F11A0659F0099DAABFC3 /* ChooseLicenseAccessoryView.xib in Sources */,
+				C2EA3673E35AFDC6C3F894C45AEFF9FA /* CustomCameraCVCell.m in Sources */,
+				0ADBD2CE78A327E5177C51DDEEBE5AE7 /* CustomCameraCVCell.xib in Sources */,
+				1DCB9B6CEAC08757F574DA7869D07AC4 /* CustomCameraUsePhotoView.m in Sources */,
+				52CBEF534F9FE4885CA1640B3A0FF2CD /* CustomCameraUsePhotoView.xib in Sources */,
+				EB86F9896696C81DA61F43A33A1DD921 /* CustomCameraVC.m in Sources */,
+				26A458E6F34BA2A61FF2C212A5464731 /* CustomCameraVC.xib in Sources */,
+				5341D4F4FDF7D1C9E4067938D078B579 /* CustomPhotoAlbum.m in Sources */,
+				570A8A9B3D3A201B200A14F4E98A4E13 /* CustomPhotoAlbum.xib in Sources */,
+				E95D67513ACF587457509D5025BE1DBF /* CustomPhotoAlbumPreviewView.m in Sources */,
+				C7A7A5CB69FAD394E6E06197C671FCFC /* CustomPhotoAlbumPreviewView.xib in Sources */,
+				1775ABA39A8A1E90DCD29E6F6AFB3BA5 /* ImageDirectionTool.m in Sources */,
+				99AE3D10D21601DAD4CE4D4CA99AAD77 /* ImagesScrollView.m in Sources */,
+				05843E30FE1C7D0B4BD34205EE3AA032 /* LICENSE in Sources */,
+				40DE08998BBB6FB172692B90E904D164 /* MBProgressHUD.m in Sources */,
+				69F7C6C30DD8882D4AFF62A0D3B79478 /* README.mdown in Sources */,
+				75EE32415A19D66CAE9A22577F4A44E2 /* ZHYPhoto-dummy.m in Sources */,
+				97A193FEDF18A3661B5BD527DAEB35DA /* ZHYPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,9 +527,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		411AE65ECA2685BA58E46C23AB469C54 /* Release */ = {
+		28D1C49AEF8A97D3524323FA9E191A7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EF3CDED7545B810428CB3133BB7DFB5 /* ZHYPhoto.xcconfig */;
+			baseConfigurationReference = 458C67DA550B0E0F7AF9BEA07DB371CE /* ZHYPhoto.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -531,11 +556,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -698,40 +722,6 @@
 			};
 			name = Debug;
 		};
-		B4CC1800D070C546385ECB5E371B7B73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EF3CDED7545B810428CB3133BB7DFB5 /* ZHYPhoto.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZHYPhoto/ZHYPhoto-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZHYPhoto/ZHYPhoto-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ZHYPhoto/ZHYPhoto.modulemap";
-				PRODUCT_MODULE_NAME = ZHYPhoto;
-				PRODUCT_NAME = ZHYPhoto;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C067717B31B13EBFA8F5F60C5828989D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBB8CE6EA6480987C5112A36AB2101B9 /* Pods-ZHYPhoto.release.xcconfig */;
@@ -770,6 +760,41 @@
 			};
 			name = Release;
 		};
+		D7AC48DEF2E428B3B3AA6E0B65D502AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458C67DA550B0E0F7AF9BEA07DB371CE /* ZHYPhoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHYPhoto/ZHYPhoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZHYPhoto/ZHYPhoto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZHYPhoto/ZHYPhoto.modulemap";
+				PRODUCT_MODULE_NAME = ZHYPhoto;
+				PRODUCT_NAME = ZHYPhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -782,20 +807,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E86B4FE0DDECB27640DED404AAE57D5 /* Build configuration list for PBXNativeTarget "ZHYPhoto" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4CC1800D070C546385ECB5E371B7B73 /* Debug */,
-				411AE65ECA2685BA58E46C23AB469C54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5B88182BE1FBEDED2C8C6CA4A050E46A /* Build configuration list for PBXNativeTarget "Pods-ZHYPhoto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC509C8CD42C5171273C099E7231305 /* Debug */,
 				C067717B31B13EBFA8F5F60C5828989D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12FE1D0574624E4C3073F8DD39258FD /* Build configuration list for PBXNativeTarget "ZHYPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D1C49AEF8A97D3524323FA9E191A7E /* Debug */,
+				D7AC48DEF2E428B3B3AA6E0B65D502AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

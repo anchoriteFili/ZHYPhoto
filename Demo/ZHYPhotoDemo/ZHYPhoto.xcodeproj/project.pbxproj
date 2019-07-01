@@ -8,18 +8,85 @@
 
 /* Begin PBXBuildFile section */
 		BFBACA9B5DDD151DA29C56E4 /* Pods_ZHYPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95544C5E82A6861FAB729CEA /* Pods_ZHYPhoto.framework */; };
+		D6A9460022CA0694003CB220 /* ChooseLicenseAccessoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945D022CA0694003CB220 /* ChooseLicenseAccessoryVC.m */; };
+		D6A9460122CA0694003CB220 /* ChooseLicenseAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945D122CA0694003CB220 /* ChooseLicenseAccessoryView.m */; };
+		D6A9460222CA0694003CB220 /* ChooseLicenseAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945D222CA0694003CB220 /* ChooseLicenseAccessoryView.xib */; };
+		D6A9460322CA0694003CB220 /* ZHYPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945D522CA0694003CB220 /* ZHYPhoto.m */; };
+		D6A9460422CA0694003CB220 /* CustomCameraVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945DC22CA0694003CB220 /* CustomCameraVC.xib */; };
+		D6A9460522CA0694003CB220 /* CustomCameraCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945DD22CA0694003CB220 /* CustomCameraCVCell.xib */; };
+		D6A9460622CA0694003CB220 /* CustomCameraUsePhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945DE22CA0694003CB220 /* CustomCameraUsePhotoView.xib */; };
+		D6A9460722CA0694003CB220 /* CustomCameraCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945DF22CA0694003CB220 /* CustomCameraCVCell.m */; };
+		D6A9460822CA0694003CB220 /* CustomCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945E022CA0694003CB220 /* CustomCameraVC.m */; };
+		D6A9460922CA0694003CB220 /* CustomCameraUsePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945E122CA0694003CB220 /* CustomCameraUsePhotoView.m */; };
+		D6A9460A22CA0694003CB220 /* CertificateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945E522CA0694003CB220 /* CertificateTableViewCell.xib */; };
+		D6A9460B22CA0694003CB220 /* CertificateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945E622CA0694003CB220 /* CertificateCollectionViewCell.m */; };
+		D6A9460C22CA0694003CB220 /* CertificateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945E722CA0694003CB220 /* CertificateTableViewCell.m */; };
+		D6A9460D22CA0694003CB220 /* CertificateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945E822CA0694003CB220 /* CertificateCollectionViewCell.xib */; };
+		D6A9460E22CA0694003CB220 /* CustomPhotoAlbumPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945EA22CA0694003CB220 /* CustomPhotoAlbumPreviewView.m */; };
+		D6A9460F22CA0694003CB220 /* CustomPhotoAlbumPreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945EC22CA0694003CB220 /* CustomPhotoAlbumPreviewView.xib */; };
+		D6A9461022CA0694003CB220 /* CustomPhotoAlbum.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945EE22CA0694003CB220 /* CustomPhotoAlbum.xib */; };
+		D6A9461122CA0694003CB220 /* CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945EF22CA0694003CB220 /* CustomPhotoAlbum.m */; };
+		D6A9461222CA0694003CB220 /* AlbumTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945F122CA0694003CB220 /* AlbumTool.m */; };
+		D6A9461322CA0694003CB220 /* CertificateCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945F222CA0694003CB220 /* CertificateCellModel.m */; };
+		D6A9461422CA0694003CB220 /* ImagesScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945F322CA0694003CB220 /* ImagesScrollView.m */; };
+		D6A9461522CA0694003CB220 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945F422CA0694003CB220 /* Album.m */; };
+		D6A9461622CA0694003CB220 /* ImageDirectionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945F522CA0694003CB220 /* ImageDirectionTool.m */; };
+		D6A9461722CA0694003CB220 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945F922CA0694003CB220 /* MBProgressHUD.m */; };
+		D6A9461822CA0694003CB220 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6A945FA22CA0694003CB220 /* LICENSE */; };
+		D6A9461922CA0694003CB220 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = D6A945FC22CA0694003CB220 /* README.mdown */; };
 		D6E5241322C9AADE0022BE96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5241222C9AADE0022BE96 /* AppDelegate.m */; };
 		D6E5241622C9AADE0022BE96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5241522C9AADE0022BE96 /* ViewController.m */; };
 		D6E5241922C9AADE0022BE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E5241722C9AADE0022BE96 /* Main.storyboard */; };
 		D6E5241B22C9AAE00022BE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E5241A22C9AAE00022BE96 /* Assets.xcassets */; };
 		D6E5241E22C9AAE00022BE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E5241C22C9AAE00022BE96 /* LaunchScreen.storyboard */; };
 		D6E5242122C9AAE00022BE96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5242022C9AAE00022BE96 /* main.m */; };
-		D6E5242922C9AB2D0022BE96 /* ZHYPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5242822C9AB2D0022BE96 /* ZHYPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5A82A3982FB057CF37865190 /* Pods-ZHYPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYPhoto.release.xcconfig"; path = "Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto.release.xcconfig"; sourceTree = "<group>"; };
 		95544C5E82A6861FAB729CEA /* Pods_ZHYPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHYPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A945D022CA0694003CB220 /* ChooseLicenseAccessoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLicenseAccessoryVC.m; sourceTree = "<group>"; };
+		D6A945D122CA0694003CB220 /* ChooseLicenseAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLicenseAccessoryView.m; sourceTree = "<group>"; };
+		D6A945D222CA0694003CB220 /* ChooseLicenseAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseLicenseAccessoryView.xib; sourceTree = "<group>"; };
+		D6A945D322CA0694003CB220 /* ChooseLicenseAccessoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLicenseAccessoryVC.h; sourceTree = "<group>"; };
+		D6A945D422CA0694003CB220 /* ChooseLicenseAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLicenseAccessoryView.h; sourceTree = "<group>"; };
+		D6A945D522CA0694003CB220 /* ZHYPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYPhoto.m; sourceTree = "<group>"; };
+		D6A945D722CA0694003CB220 /* ZHYPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYPhoto.h; sourceTree = "<group>"; };
+		D6A945D922CA0694003CB220 /* CustomCameraCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCameraCVCell.h; sourceTree = "<group>"; };
+		D6A945DA22CA0694003CB220 /* CustomCameraUsePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCameraUsePhotoView.h; sourceTree = "<group>"; };
+		D6A945DB22CA0694003CB220 /* CustomCameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCameraVC.h; sourceTree = "<group>"; };
+		D6A945DC22CA0694003CB220 /* CustomCameraVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCameraVC.xib; sourceTree = "<group>"; };
+		D6A945DD22CA0694003CB220 /* CustomCameraCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCameraCVCell.xib; sourceTree = "<group>"; };
+		D6A945DE22CA0694003CB220 /* CustomCameraUsePhotoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCameraUsePhotoView.xib; sourceTree = "<group>"; };
+		D6A945DF22CA0694003CB220 /* CustomCameraCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCameraCVCell.m; sourceTree = "<group>"; };
+		D6A945E022CA0694003CB220 /* CustomCameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCameraVC.m; sourceTree = "<group>"; };
+		D6A945E122CA0694003CB220 /* CustomCameraUsePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCameraUsePhotoView.m; sourceTree = "<group>"; };
+		D6A945E322CA0694003CB220 /* CertificateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateCollectionViewCell.h; sourceTree = "<group>"; };
+		D6A945E422CA0694003CB220 /* CertificateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateTableViewCell.h; sourceTree = "<group>"; };
+		D6A945E522CA0694003CB220 /* CertificateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertificateTableViewCell.xib; sourceTree = "<group>"; };
+		D6A945E622CA0694003CB220 /* CertificateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateCollectionViewCell.m; sourceTree = "<group>"; };
+		D6A945E722CA0694003CB220 /* CertificateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateTableViewCell.m; sourceTree = "<group>"; };
+		D6A945E822CA0694003CB220 /* CertificateCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertificateCollectionViewCell.xib; sourceTree = "<group>"; };
+		D6A945EA22CA0694003CB220 /* CustomPhotoAlbumPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPhotoAlbumPreviewView.m; sourceTree = "<group>"; };
+		D6A945EB22CA0694003CB220 /* CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPhotoAlbum.h; sourceTree = "<group>"; };
+		D6A945EC22CA0694003CB220 /* CustomPhotoAlbumPreviewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPhotoAlbumPreviewView.xib; sourceTree = "<group>"; };
+		D6A945ED22CA0694003CB220 /* CustomPhotoAlbumPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPhotoAlbumPreviewView.h; sourceTree = "<group>"; };
+		D6A945EE22CA0694003CB220 /* CustomPhotoAlbum.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPhotoAlbum.xib; sourceTree = "<group>"; };
+		D6A945EF22CA0694003CB220 /* CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPhotoAlbum.m; sourceTree = "<group>"; };
+		D6A945F122CA0694003CB220 /* AlbumTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTool.m; sourceTree = "<group>"; };
+		D6A945F222CA0694003CB220 /* CertificateCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateCellModel.m; sourceTree = "<group>"; };
+		D6A945F322CA0694003CB220 /* ImagesScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesScrollView.m; sourceTree = "<group>"; };
+		D6A945F422CA0694003CB220 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		D6A945F522CA0694003CB220 /* ImageDirectionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDirectionTool.m; sourceTree = "<group>"; };
+		D6A945F622CA0694003CB220 /* CertificateCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateCellModel.h; sourceTree = "<group>"; };
+		D6A945F722CA0694003CB220 /* AlbumTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTool.h; sourceTree = "<group>"; };
+		D6A945F922CA0694003CB220 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		D6A945FA22CA0694003CB220 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D6A945FB22CA0694003CB220 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D6A945FC22CA0694003CB220 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		D6A945FD22CA0694003CB220 /* ImageDirectionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDirectionTool.h; sourceTree = "<group>"; };
+		D6A945FE22CA0694003CB220 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		D6A945FF22CA0694003CB220 /* ImagesScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesScrollView.h; sourceTree = "<group>"; };
 		D6E5240E22C9AADE0022BE96 /* ZHYPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E5241122C9AADE0022BE96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6E5241222C9AADE0022BE96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,8 +97,6 @@
 		D6E5241D22C9AAE00022BE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6E5241F22C9AAE00022BE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6E5242022C9AAE00022BE96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D6E5242722C9AB2D0022BE96 /* ZHYPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZHYPhoto.h; path = ../../../Source/ZHYPhoto.h; sourceTree = "<group>"; };
-		D6E5242822C9AB2D0022BE96 /* ZHYPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZHYPhoto.m; path = ../../../Source/ZHYPhoto.m; sourceTree = "<group>"; };
 		DF20869CFDD0C3D24EFC700D /* Pods-ZHYPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYPhoto.debug.xcconfig"; path = "Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +118,6 @@
 				DF20869CFDD0C3D24EFC700D /* Pods-ZHYPhoto.debug.xcconfig */,
 				5A82A3982FB057CF37865190 /* Pods-ZHYPhoto.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -63,6 +127,112 @@
 				95544C5E82A6861FAB729CEA /* Pods_ZHYPhoto.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6A945CE22CA0694003CB220 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D6A945CF22CA0694003CB220 /* 选择证照附件 */,
+				D6A945D522CA0694003CB220 /* ZHYPhoto.m */,
+				D6A945D622CA0694003CB220 /* images */,
+				D6A945D722CA0694003CB220 /* ZHYPhoto.h */,
+				D6A945D822CA0694003CB220 /* 照相模块 */,
+				D6A945E222CA0694003CB220 /* cell部分 */,
+				D6A945E922CA0694003CB220 /* 相机胶卷 */,
+				D6A945F022CA0694003CB220 /* Tool */,
+			);
+			name = Source;
+			path = ../../../Source;
+			sourceTree = "<group>";
+		};
+		D6A945CF22CA0694003CB220 /* 选择证照附件 */ = {
+			isa = PBXGroup;
+			children = (
+				D6A945D022CA0694003CB220 /* ChooseLicenseAccessoryVC.m */,
+				D6A945D122CA0694003CB220 /* ChooseLicenseAccessoryView.m */,
+				D6A945D222CA0694003CB220 /* ChooseLicenseAccessoryView.xib */,
+				D6A945D322CA0694003CB220 /* ChooseLicenseAccessoryVC.h */,
+				D6A945D422CA0694003CB220 /* ChooseLicenseAccessoryView.h */,
+			);
+			path = "选择证照附件";
+			sourceTree = "<group>";
+		};
+		D6A945D622CA0694003CB220 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D6A945D822CA0694003CB220 /* 照相模块 */ = {
+			isa = PBXGroup;
+			children = (
+				D6A945D922CA0694003CB220 /* CustomCameraCVCell.h */,
+				D6A945DA22CA0694003CB220 /* CustomCameraUsePhotoView.h */,
+				D6A945DB22CA0694003CB220 /* CustomCameraVC.h */,
+				D6A945DC22CA0694003CB220 /* CustomCameraVC.xib */,
+				D6A945DD22CA0694003CB220 /* CustomCameraCVCell.xib */,
+				D6A945DE22CA0694003CB220 /* CustomCameraUsePhotoView.xib */,
+				D6A945DF22CA0694003CB220 /* CustomCameraCVCell.m */,
+				D6A945E022CA0694003CB220 /* CustomCameraVC.m */,
+				D6A945E122CA0694003CB220 /* CustomCameraUsePhotoView.m */,
+			);
+			path = "照相模块";
+			sourceTree = "<group>";
+		};
+		D6A945E222CA0694003CB220 /* cell部分 */ = {
+			isa = PBXGroup;
+			children = (
+				D6A945E322CA0694003CB220 /* CertificateCollectionViewCell.h */,
+				D6A945E422CA0694003CB220 /* CertificateTableViewCell.h */,
+				D6A945E522CA0694003CB220 /* CertificateTableViewCell.xib */,
+				D6A945E622CA0694003CB220 /* CertificateCollectionViewCell.m */,
+				D6A945E722CA0694003CB220 /* CertificateTableViewCell.m */,
+				D6A945E822CA0694003CB220 /* CertificateCollectionViewCell.xib */,
+			);
+			path = "cell部分";
+			sourceTree = "<group>";
+		};
+		D6A945E922CA0694003CB220 /* 相机胶卷 */ = {
+			isa = PBXGroup;
+			children = (
+				D6A945EA22CA0694003CB220 /* CustomPhotoAlbumPreviewView.m */,
+				D6A945EB22CA0694003CB220 /* CustomPhotoAlbum.h */,
+				D6A945EC22CA0694003CB220 /* CustomPhotoAlbumPreviewView.xib */,
+				D6A945ED22CA0694003CB220 /* CustomPhotoAlbumPreviewView.h */,
+				D6A945EE22CA0694003CB220 /* CustomPhotoAlbum.xib */,
+				D6A945EF22CA0694003CB220 /* CustomPhotoAlbum.m */,
+			);
+			path = "相机胶卷";
+			sourceTree = "<group>";
+		};
+		D6A945F022CA0694003CB220 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D6A945F122CA0694003CB220 /* AlbumTool.m */,
+				D6A945F222CA0694003CB220 /* CertificateCellModel.m */,
+				D6A945F322CA0694003CB220 /* ImagesScrollView.m */,
+				D6A945F422CA0694003CB220 /* Album.m */,
+				D6A945F522CA0694003CB220 /* ImageDirectionTool.m */,
+				D6A945F622CA0694003CB220 /* CertificateCellModel.h */,
+				D6A945F722CA0694003CB220 /* AlbumTool.h */,
+				D6A945F822CA0694003CB220 /* MBProgressHUD */,
+				D6A945FD22CA0694003CB220 /* ImageDirectionTool.h */,
+				D6A945FE22CA0694003CB220 /* Album.h */,
+				D6A945FF22CA0694003CB220 /* ImagesScrollView.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D6A945F822CA0694003CB220 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D6A945F922CA0694003CB220 /* MBProgressHUD.m */,
+				D6A945FA22CA0694003CB220 /* LICENSE */,
+				D6A945FB22CA0694003CB220 /* MBProgressHUD.h */,
+				D6A945FC22CA0694003CB220 /* README.mdown */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		D6E5240522C9AADE0022BE96 = {
@@ -86,12 +256,11 @@
 		D6E5241022C9AADE0022BE96 /* ZHYPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				D6A945CE22CA0694003CB220 /* Source */,
 				D6E5241122C9AADE0022BE96 /* AppDelegate.h */,
 				D6E5241222C9AADE0022BE96 /* AppDelegate.m */,
 				D6E5241422C9AADE0022BE96 /* ViewController.h */,
 				D6E5241522C9AADE0022BE96 /* ViewController.m */,
-				D6E5242722C9AB2D0022BE96 /* ZHYPhoto.h */,
-				D6E5242822C9AB2D0022BE96 /* ZHYPhoto.m */,
 				D6E5241722C9AADE0022BE96 /* Main.storyboard */,
 				D6E5241A22C9AAE00022BE96 /* Assets.xcassets */,
 				D6E5241C22C9AAE00022BE96 /* LaunchScreen.storyboard */,
@@ -112,7 +281,6 @@
 				D6E5240A22C9AADE0022BE96 /* Sources */,
 				D6E5240B22C9AADE0022BE96 /* Frameworks */,
 				D6E5240C22C9AADE0022BE96 /* Resources */,
-				49261B8C1D3D17F163D2D80B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,8 +328,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A9461922CA0694003CB220 /* README.mdown in Resources */,
+				D6A9461022CA0694003CB220 /* CustomPhotoAlbum.xib in Resources */,
+				D6A9460522CA0694003CB220 /* CustomCameraCVCell.xib in Resources */,
+				D6A9460F22CA0694003CB220 /* CustomPhotoAlbumPreviewView.xib in Resources */,
+				D6A9460422CA0694003CB220 /* CustomCameraVC.xib in Resources */,
+				D6A9460D22CA0694003CB220 /* CertificateCollectionViewCell.xib in Resources */,
+				D6A9460622CA0694003CB220 /* CustomCameraUsePhotoView.xib in Resources */,
+				D6A9461822CA0694003CB220 /* LICENSE in Resources */,
+				D6A9460A22CA0694003CB220 /* CertificateTableViewCell.xib in Resources */,
 				D6E5241E22C9AAE00022BE96 /* LaunchScreen.storyboard in Resources */,
 				D6E5241B22C9AAE00022BE96 /* Assets.xcassets in Resources */,
+				D6A9460222CA0694003CB220 /* ChooseLicenseAccessoryView.xib in Resources */,
 				D6E5241922C9AADE0022BE96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,23 +347,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		49261B8C1D3D17F163D2D80B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FF67D777D1C537B9CA127232 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,10 +376,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A9460B22CA0694003CB220 /* CertificateCollectionViewCell.m in Sources */,
+				D6A9460922CA0694003CB220 /* CustomCameraUsePhotoView.m in Sources */,
+				D6A9460C22CA0694003CB220 /* CertificateTableViewCell.m in Sources */,
+				D6A9460822CA0694003CB220 /* CustomCameraVC.m in Sources */,
+				D6A9460322CA0694003CB220 /* ZHYPhoto.m in Sources */,
+				D6A9461222CA0694003CB220 /* AlbumTool.m in Sources */,
+				D6A9460722CA0694003CB220 /* CustomCameraCVCell.m in Sources */,
+				D6A9461722CA0694003CB220 /* MBProgressHUD.m in Sources */,
+				D6A9461322CA0694003CB220 /* CertificateCellModel.m in Sources */,
 				D6E5241622C9AADE0022BE96 /* ViewController.m in Sources */,
+				D6A9460E22CA0694003CB220 /* CustomPhotoAlbumPreviewView.m in Sources */,
 				D6E5242122C9AAE00022BE96 /* main.m in Sources */,
-				D6E5242922C9AB2D0022BE96 /* ZHYPhoto.m in Sources */,
+				D6A9460022CA0694003CB220 /* ChooseLicenseAccessoryVC.m in Sources */,
+				D6A9461122CA0694003CB220 /* CustomPhotoAlbum.m in Sources */,
+				D6A9461622CA0694003CB220 /* ImageDirectionTool.m in Sources */,
+				D6A9461522CA0694003CB220 /* Album.m in Sources */,
+				D6A9461422CA0694003CB220 /* ImagesScrollView.m in Sources */,
 				D6E5241322C9AADE0022BE96 /* AppDelegate.m in Sources */,
+				D6A9460122CA0694003CB220 /* ChooseLicenseAccessoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

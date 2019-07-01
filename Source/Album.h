@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import "DACircularProgressView.h"
 #import "UIImageView+WebCache.h"
 #import "AlbumTool.h"
 #import "MBProgressHUD.h"

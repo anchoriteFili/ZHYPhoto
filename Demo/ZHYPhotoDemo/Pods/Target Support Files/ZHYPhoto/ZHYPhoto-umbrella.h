@@ -13,7 +13,6 @@
 #import "Album.h"
 #import "CertificateCollectionViewCell.h"
 #import "CertificateTableViewCell.h"
-#import "DACircularProgressView.h"
 #import "NSData+SDDataCache.h"
 #import "TAAbstractDotView.h"
 #import "TAAnimatedDotView.h"

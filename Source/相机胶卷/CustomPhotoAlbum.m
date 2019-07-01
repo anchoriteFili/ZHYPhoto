@@ -363,12 +363,18 @@
     switch (touchEventType) {
         case CustomCameraVCButtonClickTypeCancleClick: { // 取消按钮
             // 暂时不做任何处理
+            NSLog(@"取消按钮");
             break;
         }
             
         case CustomCameraVCButtonClickTypeCompleteClick: { // 完成按钮
             // 直接退出页面即可 本页面暂不做处理
-
+            NSLog(@"完成按钮");
+            
+            if ([_delegate respondsToSelector:@selector(CustomPhotoAlbumReceivePhotoArray:)]) {
+                [_delegate CustomPhotoAlbumReceivePhotoArray:self.cameraPhotoImagesArray];
+            }
+            
             break;
         }
             
@@ -456,6 +462,10 @@
     }
     
     [self.cameraPhotoImagesArray addObjectsFromArray:newImagesArray];
+    
+    if ([_delegate respondsToSelector:@selector(CustomPhotoAlbumReceivePhotoArray:)]) {
+        [_delegate CustomPhotoAlbumReceivePhotoArray:self.cameraPhotoImagesArray];
+    }
     
     // 收回自己页面
     [self dismissViewControllerAnimated:YES completion:nil];

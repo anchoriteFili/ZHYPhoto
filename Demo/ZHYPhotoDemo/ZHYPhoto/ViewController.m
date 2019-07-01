@@ -9,11 +9,18 @@
 #import "ViewController.h"
 #import "ZHYPhoto.h"
 
-@interface ViewController ()
+
+@interface ViewController ()<CustomPhotoAlbumDelegate>
 
 @end
 
 @implementation ViewController
+
+- (void)CustomPhotoAlbumReceivePhotoArray:(NSMutableArray *)imageArray {
+    
+    NSLog(@"图片数量 **** %lu",(unsigned long)imageArray.count);
+    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

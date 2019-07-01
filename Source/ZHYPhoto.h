@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "AlbumTool.h"
+#import "CustomPhotoAlbum.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -17,18 +19,7 @@ typedef NS_ENUM(NSInteger, OpenPhotoType) {
     OpenPhotoTypeAlbum   // 打开相册
 };
 
-@protocol ZHYPhotoDelegate <NSObject>
-@required
-- (void)haha; //到AppDelegate中执行该方法
-@end
-
-
 @interface ZHYPhoto : NSObject
-
-#pragma mark 创建代理属性
-@property (nonatomic,assign) id<ZHYPhotoDelegate,NSObject> delegate;
-
-
 /**
  打开打开相机或者相册
 

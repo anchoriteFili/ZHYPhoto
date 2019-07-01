@@ -7,8 +7,7 @@
 //
 
 #import "ZHYPhoto.h"
-#import "AlbumTool.h"
-#import "CustomPhotoAlbum.h"
+
 
 @implementation ZHYPhoto
 
@@ -46,6 +45,7 @@
             }
             
             customPhotoAlbum.photoNum = photoNum;
+            customPhotoAlbum.delegate = VC;
             customPhotoAlbum.cameraPhotoImagesArray = [NSMutableArray array];
             [VC presentViewController:customPhotoAlbum animated:YES completion:nil];
         }

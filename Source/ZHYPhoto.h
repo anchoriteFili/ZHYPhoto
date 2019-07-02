@@ -32,9 +32,6 @@ typedef NS_ENUM(NSInteger, OpenPhotoType) {
 + (void)openPhotoWithChoseType:(OpenPhotoType)type photoCount:(NSInteger)photoNum andVC:(UIViewController *)VC;
 
 
-
-
-
 @end
 
 NS_ASSUME_NONNULL_END

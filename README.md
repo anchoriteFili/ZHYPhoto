@@ -19,14 +19,13 @@
 
 1. 手动安装
 
-> 将Source文件直接拉入项目中，并将将demo项目中 `Assets.xcassets` 中图片文件拉入到项目中
+> 将Source文件整体拉入项目中。
 
-2. pod添加
+1. pod添加
 
 ```ruby
 pod 'ZHYPhoto'
 ```
-> 将demo项目中 `Assets.xcassets` 中图片拉入到项目中。
 
 ### 使用方法
 ---

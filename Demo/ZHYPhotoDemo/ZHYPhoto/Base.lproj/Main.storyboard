@@ -35,12 +35,8 @@
                                     <action selector="photoClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XIu-Ph-oma"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ywr-zj-pWk">
-                                <rect key="frame" x="0.0" y="67" width="136" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="fKx-tI-j0u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3ru-cz-Dvp"/>
                             <constraint firstItem="49R-bt-TCY" firstAttribute="top" secondItem="fKx-tI-j0u" secondAttribute="bottom" constant="109" id="5nf-0Z-mX7"/>

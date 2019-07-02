@@ -78,4 +78,7 @@ pod 'ZHYPhoto'
 }
 ```
 
+#### GIF展示基本功能
+
+![](https://github.com/anchoriteFili/CustomPhoto/blob/master/定制相册部分/定制相册部分/展示文件/选择证照附件.png)
 

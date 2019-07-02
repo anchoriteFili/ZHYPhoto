@@ -57,7 +57,7 @@ pod 'ZHYPhoto'
 
 > 在调用相机相册的ViewController中添加代理 `<CustomPhotoAlbumDelegate>` ,并添加代理方法，即可获取选取的数据。
 
-```
+```objc
 - (void)CustomPhotoAlbumReceivePhotoArray:(NSMutableArray *)imageArray {
     
     NSLog(@"图片数量 **** %lu",(unsigned long)imageArray.count);

@@ -34,6 +34,23 @@
 		D6A9461722CA0694003CB220 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945F922CA0694003CB220 /* MBProgressHUD.m */; };
 		D6A9461822CA0694003CB220 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6A945FA22CA0694003CB220 /* LICENSE */; };
 		D6A9461922CA0694003CB220 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = D6A945FC22CA0694003CB220 /* README.mdown */; };
+		D6A9462C22CB2B14003CB220 /* CameraFlashlight.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9461B22CB2B14003CB220 /* CameraFlashlight.png */; };
+		D6A9462D22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_choose.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9461C22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_choose.png */; };
+		D6A9462E22CB2B14003CB220 /* ChooseLicenseAccessoryView_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9461D22CB2B14003CB220 /* ChooseLicenseAccessoryView_delete.png */; };
+		D6A9462F22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_NoChoose.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9461E22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_NoChoose.png */; };
+		D6A9463022CB2B14003CB220 /* CameraFlashlight_Auto.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9461F22CB2B14003CB220 /* CameraFlashlight_Auto.png */; };
+		D6A9463122CB2B14003CB220 /* photographButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462022CB2B14003CB220 /* photographButton.png */; };
+		D6A9463222CB2B14003CB220 /* fanhuian_white.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462122CB2B14003CB220 /* fanhuian_white.png */; };
+		D6A9463322CB2B14003CB220 /* CertificateCell_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462222CB2B14003CB220 /* CertificateCell_photo.png */; };
+		D6A9463422CB2B14003CB220 /* CameraFlashlight_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462322CB2B14003CB220 /* CameraFlashlight_ON.png */; };
+		D6A9463522CB2B14003CB220 /* CustomPhotoAlbum_expandImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462422CB2B14003CB220 /* CustomPhotoAlbum_expandImage.png */; };
+		D6A9463622CB2B14003CB220 /* CameraReversal.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462522CB2B14003CB220 /* CameraReversal.png */; };
+		D6A9463722CB2B14003CB220 /* blue_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462622CB2B14003CB220 /* blue_bg.png */; };
+		D6A9463822CB2B14003CB220 /* CustomCameraVC_Album.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462722CB2B14003CB220 /* CustomCameraVC_Album.png */; };
+		D6A9463922CB2B14003CB220 /* CustomCameraCVCell_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462822CB2B14003CB220 /* CustomCameraCVCell_delete.png */; };
+		D6A9463A22CB2B14003CB220 /* CustomPhotoAlbum_retractImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462922CB2B14003CB220 /* CustomPhotoAlbum_retractImage.png */; };
+		D6A9463B22CB2B14003CB220 /* blue_bg_Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462A22CB2B14003CB220 /* blue_bg_Highlighted.png */; };
+		D6A9463C22CB2B14003CB220 /* CameraFlashlight_OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9462B22CB2B14003CB220 /* CameraFlashlight_OFF.png */; };
 		D6E5241322C9AADE0022BE96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5241222C9AADE0022BE96 /* AppDelegate.m */; };
 		D6E5241622C9AADE0022BE96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E5241522C9AADE0022BE96 /* ViewController.m */; };
 		D6E5241922C9AADE0022BE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E5241722C9AADE0022BE96 /* Main.storyboard */; };
@@ -87,6 +104,23 @@
 		D6A945FD22CA0694003CB220 /* ImageDirectionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDirectionTool.h; sourceTree = "<group>"; };
 		D6A945FE22CA0694003CB220 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
 		D6A945FF22CA0694003CB220 /* ImagesScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesScrollView.h; sourceTree = "<group>"; };
+		D6A9461B22CB2B14003CB220 /* CameraFlashlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraFlashlight.png; sourceTree = "<group>"; };
+		D6A9461C22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_choose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomPhotoAlbumPreviewView_choose.png; sourceTree = "<group>"; };
+		D6A9461D22CB2B14003CB220 /* ChooseLicenseAccessoryView_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChooseLicenseAccessoryView_delete.png; sourceTree = "<group>"; };
+		D6A9461E22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_NoChoose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomPhotoAlbumPreviewView_NoChoose.png; sourceTree = "<group>"; };
+		D6A9461F22CB2B14003CB220 /* CameraFlashlight_Auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraFlashlight_Auto.png; sourceTree = "<group>"; };
+		D6A9462022CB2B14003CB220 /* photographButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photographButton.png; sourceTree = "<group>"; };
+		D6A9462122CB2B14003CB220 /* fanhuian_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanhuian_white.png; sourceTree = "<group>"; };
+		D6A9462222CB2B14003CB220 /* CertificateCell_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CertificateCell_photo.png; sourceTree = "<group>"; };
+		D6A9462322CB2B14003CB220 /* CameraFlashlight_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraFlashlight_ON.png; sourceTree = "<group>"; };
+		D6A9462422CB2B14003CB220 /* CustomPhotoAlbum_expandImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomPhotoAlbum_expandImage.png; sourceTree = "<group>"; };
+		D6A9462522CB2B14003CB220 /* CameraReversal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraReversal.png; sourceTree = "<group>"; };
+		D6A9462622CB2B14003CB220 /* blue_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_bg.png; sourceTree = "<group>"; };
+		D6A9462722CB2B14003CB220 /* CustomCameraVC_Album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomCameraVC_Album.png; sourceTree = "<group>"; };
+		D6A9462822CB2B14003CB220 /* CustomCameraCVCell_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomCameraCVCell_delete.png; sourceTree = "<group>"; };
+		D6A9462922CB2B14003CB220 /* CustomPhotoAlbum_retractImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomPhotoAlbum_retractImage.png; sourceTree = "<group>"; };
+		D6A9462A22CB2B14003CB220 /* blue_bg_Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_bg_Highlighted.png; sourceTree = "<group>"; };
+		D6A9462B22CB2B14003CB220 /* CameraFlashlight_OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraFlashlight_OFF.png; sourceTree = "<group>"; };
 		D6E5240E22C9AADE0022BE96 /* ZHYPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E5241122C9AADE0022BE96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6E5241222C9AADE0022BE96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -134,8 +168,8 @@
 			children = (
 				D6A945D722CA0694003CB220 /* ZHYPhoto.h */,
 				D6A945D522CA0694003CB220 /* ZHYPhoto.m */,
+				D6A9461A22CB2B14003CB220 /* images */,
 				D6A945CF22CA0694003CB220 /* 选择证照附件 */,
-				D6A945D622CA0694003CB220 /* images */,
 				D6A945D822CA0694003CB220 /* 照相模块 */,
 				D6A945E222CA0694003CB220 /* cell部分 */,
 				D6A945E922CA0694003CB220 /* 相机胶卷 */,
@@ -155,13 +189,6 @@
 				D6A945D422CA0694003CB220 /* ChooseLicenseAccessoryView.h */,
 			);
 			path = "选择证照附件";
-			sourceTree = "<group>";
-		};
-		D6A945D622CA0694003CB220 /* images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 		D6A945D822CA0694003CB220 /* 照相模块 */ = {
@@ -233,6 +260,30 @@
 				D6A945FC22CA0694003CB220 /* README.mdown */,
 			);
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		D6A9461A22CB2B14003CB220 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D6A9461B22CB2B14003CB220 /* CameraFlashlight.png */,
+				D6A9461C22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_choose.png */,
+				D6A9461D22CB2B14003CB220 /* ChooseLicenseAccessoryView_delete.png */,
+				D6A9461E22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_NoChoose.png */,
+				D6A9461F22CB2B14003CB220 /* CameraFlashlight_Auto.png */,
+				D6A9462022CB2B14003CB220 /* photographButton.png */,
+				D6A9462122CB2B14003CB220 /* fanhuian_white.png */,
+				D6A9462222CB2B14003CB220 /* CertificateCell_photo.png */,
+				D6A9462322CB2B14003CB220 /* CameraFlashlight_ON.png */,
+				D6A9462422CB2B14003CB220 /* CustomPhotoAlbum_expandImage.png */,
+				D6A9462522CB2B14003CB220 /* CameraReversal.png */,
+				D6A9462622CB2B14003CB220 /* blue_bg.png */,
+				D6A9462722CB2B14003CB220 /* CustomCameraVC_Album.png */,
+				D6A9462822CB2B14003CB220 /* CustomCameraCVCell_delete.png */,
+				D6A9462922CB2B14003CB220 /* CustomPhotoAlbum_retractImage.png */,
+				D6A9462A22CB2B14003CB220 /* blue_bg_Highlighted.png */,
+				D6A9462B22CB2B14003CB220 /* CameraFlashlight_OFF.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		D6E5240522C9AADE0022BE96 = {
@@ -330,17 +381,34 @@
 			files = (
 				D6A9461922CA0694003CB220 /* README.mdown in Resources */,
 				D6A9461022CA0694003CB220 /* CustomPhotoAlbum.xib in Resources */,
+				D6A9463822CB2B14003CB220 /* CustomCameraVC_Album.png in Resources */,
 				D6A9460522CA0694003CB220 /* CustomCameraCVCell.xib in Resources */,
 				D6A9460F22CA0694003CB220 /* CustomPhotoAlbumPreviewView.xib in Resources */,
 				D6A9460422CA0694003CB220 /* CustomCameraVC.xib in Resources */,
+				D6A9462E22CB2B14003CB220 /* ChooseLicenseAccessoryView_delete.png in Resources */,
 				D6A9460D22CA0694003CB220 /* CertificateCollectionViewCell.xib in Resources */,
 				D6A9460622CA0694003CB220 /* CustomCameraUsePhotoView.xib in Resources */,
+				D6A9462F22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_NoChoose.png in Resources */,
+				D6A9463522CB2B14003CB220 /* CustomPhotoAlbum_expandImage.png in Resources */,
+				D6A9463A22CB2B14003CB220 /* CustomPhotoAlbum_retractImage.png in Resources */,
+				D6A9463422CB2B14003CB220 /* CameraFlashlight_ON.png in Resources */,
 				D6A9461822CA0694003CB220 /* LICENSE in Resources */,
 				D6A9460A22CA0694003CB220 /* CertificateTableViewCell.xib in Resources */,
+				D6A9463B22CB2B14003CB220 /* blue_bg_Highlighted.png in Resources */,
+				D6A9463322CB2B14003CB220 /* CertificateCell_photo.png in Resources */,
+				D6A9463222CB2B14003CB220 /* fanhuian_white.png in Resources */,
 				D6E5241E22C9AAE00022BE96 /* LaunchScreen.storyboard in Resources */,
 				D6E5241B22C9AAE00022BE96 /* Assets.xcassets in Resources */,
+				D6A9463C22CB2B14003CB220 /* CameraFlashlight_OFF.png in Resources */,
+				D6A9463922CB2B14003CB220 /* CustomCameraCVCell_delete.png in Resources */,
+				D6A9463122CB2B14003CB220 /* photographButton.png in Resources */,
+				D6A9463622CB2B14003CB220 /* CameraReversal.png in Resources */,
+				D6A9462D22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_choose.png in Resources */,
 				D6A9460222CA0694003CB220 /* ChooseLicenseAccessoryView.xib in Resources */,
+				D6A9463022CB2B14003CB220 /* CameraFlashlight_Auto.png in Resources */,
+				D6A9462C22CB2B14003CB220 /* CameraFlashlight.png in Resources */,
 				D6E5241922C9AADE0022BE96 /* Main.storyboard in Resources */,
+				D6A9463722CB2B14003CB220 /* blue_bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

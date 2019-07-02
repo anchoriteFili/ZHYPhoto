@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 
 #import "AlbumTool.h"
-#import "MBProgressHUD.h"
 
 // 刷新选择证照附件页面数据通知标识
 #define reloadChooseLicenseAccessoryVCNotification @"reloadChooseLicenseAccessoryVCNotification"

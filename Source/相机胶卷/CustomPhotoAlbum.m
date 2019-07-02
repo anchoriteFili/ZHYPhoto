@@ -277,14 +277,25 @@
         case TouchEventTypeSelect: { // 选中状态 albumModelArray
             // 9张图片的限制
             if (self.modelAdditionArray.count >= self.photoNum) {
-//                [MBProgressHUD showError:@"最多只能添加5张"];
+
+                UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 170, 50)];
+                label.backgroundColor = UIColor.blackColor;
+                label.layer.masksToBounds = YES;
+                label.layer.cornerRadius = 25;
+                label.textAlignment = NSTextAlignmentCenter;
+                label.center = CGPointMake(WIDTH/2.0, HEIGHT/2.0);
+                label.text = [NSString stringWithFormat:@"最多只能添加%ld张",(long)self.photoNum];
+                label.textColor = UIColor.whiteColor;
+                [self.view addSubview:label];
                 
+                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                    
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        //回到主线程
+                        [label removeFromSuperview];
+                    });
+                });
                 
-                MBProgressHUD *hudView = [MBProgressHUD showHUDAddedTo:[[UIApplication sharedApplication].delegate window] animated:YES];
-                hudView.mode = MBProgressHUDModeText;
-                hudView.label.text = [NSString stringWithFormat:@"最多只能添加%ld张",(long)self.photoNum];
-                hudView.label.textColor = [UIColor whiteColor];
-                [hudView hideAnimated:YES afterDelay:1];
                 return;
             }
             

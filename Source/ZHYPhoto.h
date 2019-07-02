@@ -26,7 +26,7 @@ typedef NS_ENUM(NSInteger, OpenPhotoType) {
  调取相册相机
 
  @param type 判断是打开相机还是相册 不能为空
- @param photoNum 获取图片的张数确定，最多9张， 不能可为空
+ @param photoNum 获取图片的张数确定，最好不要超过9张， 不能为空
  @param VC 调取相机相册的视图控制器 不能为空
  */
 + (void)openPhotoWithChoseType:(OpenPhotoType)type photoCount:(NSInteger)photoNum andVC:(UIViewController *)VC;

@@ -12,7 +12,6 @@
 #import "CustomCameraCVCell.h"
 #import "CustomCameraUsePhotoView.h" // 拍照后显示的数据
 #import "ImageDirectionTool.h" // 旋转图片工具
-#import "ChooseLicenseAccessoryVC.h" //
 
 
 typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);

@@ -285,7 +285,6 @@
                 hudView.label.text = [NSString stringWithFormat:@"最多只能添加%ld张",(long)self.photoNum];
                 hudView.label.textColor = [UIColor whiteColor];
                 [hudView hideAnimated:YES afterDelay:1];
-
                 return;
             }
             

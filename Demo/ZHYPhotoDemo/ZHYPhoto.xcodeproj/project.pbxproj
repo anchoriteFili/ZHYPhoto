@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BFBACA9B5DDD151DA29C56E4 /* Pods_ZHYPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95544C5E82A6861FAB729CEA /* Pods_ZHYPhoto.framework */; };
-		D6A9460022CA0694003CB220 /* ChooseLicenseAccessoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945D022CA0694003CB220 /* ChooseLicenseAccessoryVC.m */; };
-		D6A9460122CA0694003CB220 /* ChooseLicenseAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945D122CA0694003CB220 /* ChooseLicenseAccessoryView.m */; };
-		D6A9460222CA0694003CB220 /* ChooseLicenseAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945D222CA0694003CB220 /* ChooseLicenseAccessoryView.xib */; };
 		D6A9460322CA0694003CB220 /* ZHYPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945D522CA0694003CB220 /* ZHYPhoto.m */; };
 		D6A9460422CA0694003CB220 /* CustomCameraVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945DC22CA0694003CB220 /* CustomCameraVC.xib */; };
 		D6A9460522CA0694003CB220 /* CustomCameraCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A945DD22CA0694003CB220 /* CustomCameraCVCell.xib */; };
@@ -32,8 +29,6 @@
 		D6A9461522CA0694003CB220 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945F422CA0694003CB220 /* Album.m */; };
 		D6A9461622CA0694003CB220 /* ImageDirectionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945F522CA0694003CB220 /* ImageDirectionTool.m */; };
 		D6A9461722CA0694003CB220 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A945F922CA0694003CB220 /* MBProgressHUD.m */; };
-		D6A9461822CA0694003CB220 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D6A945FA22CA0694003CB220 /* LICENSE */; };
-		D6A9461922CA0694003CB220 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = D6A945FC22CA0694003CB220 /* README.mdown */; };
 		D6A9462C22CB2B14003CB220 /* CameraFlashlight.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9461B22CB2B14003CB220 /* CameraFlashlight.png */; };
 		D6A9462D22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_choose.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9461C22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_choose.png */; };
 		D6A9462E22CB2B14003CB220 /* ChooseLicenseAccessoryView_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A9461D22CB2B14003CB220 /* ChooseLicenseAccessoryView_delete.png */; };
@@ -62,11 +57,6 @@
 /* Begin PBXFileReference section */
 		5A82A3982FB057CF37865190 /* Pods-ZHYPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYPhoto.release.xcconfig"; path = "Target Support Files/Pods-ZHYPhoto/Pods-ZHYPhoto.release.xcconfig"; sourceTree = "<group>"; };
 		95544C5E82A6861FAB729CEA /* Pods_ZHYPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHYPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6A945D022CA0694003CB220 /* ChooseLicenseAccessoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLicenseAccessoryVC.m; sourceTree = "<group>"; };
-		D6A945D122CA0694003CB220 /* ChooseLicenseAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLicenseAccessoryView.m; sourceTree = "<group>"; };
-		D6A945D222CA0694003CB220 /* ChooseLicenseAccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseLicenseAccessoryView.xib; sourceTree = "<group>"; };
-		D6A945D322CA0694003CB220 /* ChooseLicenseAccessoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLicenseAccessoryVC.h; sourceTree = "<group>"; };
-		D6A945D422CA0694003CB220 /* ChooseLicenseAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLicenseAccessoryView.h; sourceTree = "<group>"; };
 		D6A945D522CA0694003CB220 /* ZHYPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYPhoto.m; sourceTree = "<group>"; };
 		D6A945D722CA0694003CB220 /* ZHYPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYPhoto.h; sourceTree = "<group>"; };
 		D6A945D922CA0694003CB220 /* CustomCameraCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCameraCVCell.h; sourceTree = "<group>"; };
@@ -98,9 +88,7 @@
 		D6A945F622CA0694003CB220 /* CertificateCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateCellModel.h; sourceTree = "<group>"; };
 		D6A945F722CA0694003CB220 /* AlbumTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTool.h; sourceTree = "<group>"; };
 		D6A945F922CA0694003CB220 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		D6A945FA22CA0694003CB220 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6A945FB22CA0694003CB220 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		D6A945FC22CA0694003CB220 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
 		D6A945FD22CA0694003CB220 /* ImageDirectionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDirectionTool.h; sourceTree = "<group>"; };
 		D6A945FE22CA0694003CB220 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
 		D6A945FF22CA0694003CB220 /* ImagesScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesScrollView.h; sourceTree = "<group>"; };
@@ -169,7 +157,6 @@
 				D6A945D722CA0694003CB220 /* ZHYPhoto.h */,
 				D6A945D522CA0694003CB220 /* ZHYPhoto.m */,
 				D6A9461A22CB2B14003CB220 /* images */,
-				D6A945CF22CA0694003CB220 /* 选择证照附件 */,
 				D6A945D822CA0694003CB220 /* 照相模块 */,
 				D6A945E222CA0694003CB220 /* cell部分 */,
 				D6A945E922CA0694003CB220 /* 相机胶卷 */,
@@ -177,18 +164,6 @@
 			);
 			name = Source;
 			path = ../../../Source;
-			sourceTree = "<group>";
-		};
-		D6A945CF22CA0694003CB220 /* 选择证照附件 */ = {
-			isa = PBXGroup;
-			children = (
-				D6A945D022CA0694003CB220 /* ChooseLicenseAccessoryVC.m */,
-				D6A945D122CA0694003CB220 /* ChooseLicenseAccessoryView.m */,
-				D6A945D222CA0694003CB220 /* ChooseLicenseAccessoryView.xib */,
-				D6A945D322CA0694003CB220 /* ChooseLicenseAccessoryVC.h */,
-				D6A945D422CA0694003CB220 /* ChooseLicenseAccessoryView.h */,
-			);
-			path = "选择证照附件";
 			sourceTree = "<group>";
 		};
 		D6A945D822CA0694003CB220 /* 照相模块 */ = {
@@ -255,9 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				D6A945F922CA0694003CB220 /* MBProgressHUD.m */,
-				D6A945FA22CA0694003CB220 /* LICENSE */,
 				D6A945FB22CA0694003CB220 /* MBProgressHUD.h */,
-				D6A945FC22CA0694003CB220 /* README.mdown */,
 			);
 			path = MBProgressHUD;
 			sourceTree = "<group>";
@@ -379,7 +352,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A9461922CA0694003CB220 /* README.mdown in Resources */,
 				D6A9461022CA0694003CB220 /* CustomPhotoAlbum.xib in Resources */,
 				D6A9463822CB2B14003CB220 /* CustomCameraVC_Album.png in Resources */,
 				D6A9460522CA0694003CB220 /* CustomCameraCVCell.xib in Resources */,
@@ -392,7 +364,6 @@
 				D6A9463522CB2B14003CB220 /* CustomPhotoAlbum_expandImage.png in Resources */,
 				D6A9463A22CB2B14003CB220 /* CustomPhotoAlbum_retractImage.png in Resources */,
 				D6A9463422CB2B14003CB220 /* CameraFlashlight_ON.png in Resources */,
-				D6A9461822CA0694003CB220 /* LICENSE in Resources */,
 				D6A9460A22CA0694003CB220 /* CertificateTableViewCell.xib in Resources */,
 				D6A9463B22CB2B14003CB220 /* blue_bg_Highlighted.png in Resources */,
 				D6A9463322CB2B14003CB220 /* CertificateCell_photo.png in Resources */,
@@ -404,7 +375,6 @@
 				D6A9463122CB2B14003CB220 /* photographButton.png in Resources */,
 				D6A9463622CB2B14003CB220 /* CameraReversal.png in Resources */,
 				D6A9462D22CB2B14003CB220 /* CustomPhotoAlbumPreviewView_choose.png in Resources */,
-				D6A9460222CA0694003CB220 /* ChooseLicenseAccessoryView.xib in Resources */,
 				D6A9463022CB2B14003CB220 /* CameraFlashlight_Auto.png in Resources */,
 				D6A9462C22CB2B14003CB220 /* CameraFlashlight.png in Resources */,
 				D6E5241922C9AADE0022BE96 /* Main.storyboard in Resources */,
@@ -456,13 +426,11 @@
 				D6E5241622C9AADE0022BE96 /* ViewController.m in Sources */,
 				D6A9460E22CA0694003CB220 /* CustomPhotoAlbumPreviewView.m in Sources */,
 				D6E5242122C9AAE00022BE96 /* main.m in Sources */,
-				D6A9460022CA0694003CB220 /* ChooseLicenseAccessoryVC.m in Sources */,
 				D6A9461122CA0694003CB220 /* CustomPhotoAlbum.m in Sources */,
 				D6A9461622CA0694003CB220 /* ImageDirectionTool.m in Sources */,
 				D6A9461522CA0694003CB220 /* Album.m in Sources */,
 				D6A9461422CA0694003CB220 /* ImagesScrollView.m in Sources */,
 				D6E5241322C9AADE0022BE96 /* AppDelegate.m in Sources */,
-				D6A9460122CA0694003CB220 /* ChooseLicenseAccessoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,7 +29,7 @@
 
 - (IBAction)photoClick:(UIButton *)sender {
     
-    [ZHYPhoto openPhotoWithChoseType:0 photoCount:5 andVC:self];
+    [ZHYPhoto openPhotoWithChoseType:OpenPhotoTypeAlbum photoCount:5 andVC:self];
 }
 
 

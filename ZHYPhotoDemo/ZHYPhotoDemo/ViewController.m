@@ -1,14 +1,13 @@
 //
 //  ViewController.m
-//  ZHYPhoto
+//  ZHYPhotoDemo
 //
-//  Created by zetafin on 2019/7/1.
+//  Created by zetafin on 2019/7/3.
 //  Copyright © 2019 赵宏亚. All rights reserved.
 //
 
 #import "ViewController.h"
 #import "ZHYPhoto.h"
-
 
 @interface ViewController ()<CustomPhotoAlbumDelegate>
 
@@ -16,6 +15,19 @@
 
 @implementation ViewController
 
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+
+- (IBAction)buttonClick:(UIButton *)sender {
+    
+    [ZHYPhoto openPhotoWithChoseType:OpenPhotoTypeAlbum photoCount:5 andVC:self];
+}
+
+// 已经选择的图片
 - (void)CustomPhotoAlbumReceivePhotoArray:(NSMutableArray *)imageArray {
     
     NSLog(@"图片数量 **** %lu",(unsigned long)imageArray.count);
@@ -34,19 +46,6 @@
         i ++;
     }
 }
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-
-}
-
-- (IBAction)photoClick:(UIButton *)sender {
-    
-    [ZHYPhoto openPhotoWithChoseType:OpenPhotoTypeAlbum photoCount:5 andVC:self];
-}
-
-
 
 
 @end

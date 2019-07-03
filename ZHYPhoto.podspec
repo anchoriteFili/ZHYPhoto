@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'ZHYPhoto'
-    s.version      = '0.0.3'
+    s.version      = '0.0.4'
     s.summary      = 'An useful tool'
     s.homepage     = 'https://github.com/anchoriteFili/ZHYPhoto'
     s.license      = 'MIT'

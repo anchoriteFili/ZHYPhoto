@@ -38,7 +38,7 @@
         // 可以将base64字符串转为图片
         NSData *decodeData = [[NSData alloc] initWithBase64EncodedString:imageStr options:NSDataBase64DecodingIgnoreUnknownCharacters];
         UIImage *decodedImage = [UIImage imageWithData: decodeData];
-        
+         
         // 将选择的图片显示
         UIImageView *imageView = [[UIImageView alloc] initWithImage:decodedImage];
         imageView.frame = CGRectMake(i*WIDTH/imageArray.count, 64, WIDTH/imageArray.count, 80);

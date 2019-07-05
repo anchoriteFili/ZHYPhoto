@@ -14,6 +14,9 @@
     "git": "https://github.com/anchoriteFili/ZHYPhoto.git",
     "tag": "0.0.4"
   },
-  "source_files": "Source/**/*.{h,m,xib,png}",
+  "source_files": "Source/**/*.{h,m,xib}",
+  "resources": [
+    "Source/Assets/*"
+  ],
   "requires_arc": true
 }

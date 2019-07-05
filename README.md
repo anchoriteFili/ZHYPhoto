@@ -16,10 +16,12 @@
 <string>是否允许该应用访问你的媒体资料库？</string>
 ```
 
-#### 使用说明
+#### 直接pod拉取
 
-> 进入[项目](https://github.com/anchoriteFili/ZHYPhoto)将Source文件整体拉入项目中，即可使用。
-> 其中xib和图片没有对pod进行路径适配，不能直接pod拉取使用。
+```ruby
+pod 'ZHYPhoto'
+```
+
 
 ### 使用方法
 ---

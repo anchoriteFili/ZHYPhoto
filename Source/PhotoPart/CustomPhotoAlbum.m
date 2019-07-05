@@ -134,7 +134,7 @@
         } else {
             
             CertificateCellModel *model = [[CertificateCellModel alloc] init];
-            model.itemImage = [UIImage imageNamed:@"CommandplaceholderImage"];
+            model.itemImage = UIIMAGEWITHNAME(@"CommandplaceholderImage.png");
             model.cellImageType = CertificateCellImageDeselect;
 
             [cell updateCellWithModel:model];
@@ -219,7 +219,7 @@
     // 刷新头部相册名相关
     self.isTableViewShow = NO;
     self.tableViewBackView.hidden = YES;
-    self.headerArrowImageView.image = [UIImage imageNamed:@"CustomPhotoAlbum_expandImage"]; // 显示下箭头
+    self.headerArrowImageView.image = UIIMAGEWITHNAME(@"CustomPhotoAlbum_expandImage.png"); // 显示下箭头
 }
 
 #pragma mark 设置每行的高度
@@ -436,10 +436,10 @@
     
     if (self.isTableViewShow) {
         self.tableViewBackView.hidden = NO;
-        self.headerArrowImageView.image = [UIImage imageNamed:@"CustomPhotoAlbum_retractImage"]; // 显示上箭头
+        self.headerArrowImageView.image = UIIMAGEWITHNAME(@"CustomPhotoAlbum_retractImage.png"); // 显示上箭头
     } else {
         self.tableViewBackView.hidden = YES;
-        self.headerArrowImageView.image = [UIImage imageNamed:@"CustomPhotoAlbum_expandImage"]; // 显示上箭头
+        self.headerArrowImageView.image = UIIMAGEWITHNAME(@"CustomPhotoAlbum_expandImage.png"); // 显示上箭头
     }
     
 }
@@ -618,7 +618,7 @@
     // 刷新头部相册名相关
     self.isTableViewShow = NO;
     self.tableViewBackView.hidden = YES;
-    self.headerArrowImageView.image = [UIImage imageNamed:@"CustomPhotoAlbum_expandImage"]; // 显示上箭头
+    self.headerArrowImageView.image = UIIMAGEWITHNAME(@"CustomPhotoAlbum_expandImage.png"); // 显示上箭头
     [self.albumModelArray removeAllObjects]; // 先清空相册
     PHAssetCollection *assetCollection = [self.albumsArray objectAtIndex:index];
     NSLog(@"self.albumsArray ======== %@",self.albumsArray);

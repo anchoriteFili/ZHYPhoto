@@ -17,6 +17,8 @@
 #define RGBA_COLOR(R, G, B, A) [UIColor colorWithRed:((R)/255.0f) green:((G)/255.0f) blue:((B)/255.0f) alpha:A]
 #define RGB_COLOR(R, G, B) [UIColor colorWithRed:((R)/255.0f) green:((G)/255.0f) blue:((B)/255.0f) alpha:1.0f]
 
+#define UIIMAGEWITHNAME(name) [UIImage imageWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:name ofType:nil]]
+
 //比例的适配
 #define WIDTH [UIScreen mainScreen].bounds.size.width
 #define HEIGHT [UIScreen mainScreen].bounds.size.height

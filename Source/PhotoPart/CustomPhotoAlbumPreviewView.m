@@ -35,7 +35,7 @@
     [self updateSelectImageCountLabel];
     
     
-    [self.selectButton setImage:[UIImage imageNamed:@"CustomPhotoAlbumPreviewView_choose"] forState:UIControlStateNormal];
+    [self.selectButton setImage:UIIMAGEWITHNAME(@"CustomPhotoAlbumPreviewView_choose.png") forState:UIControlStateNormal];
     
     // 添加图片，更新scrollView
     NSMutableArray *images = [NSMutableArray array];
@@ -62,9 +62,9 @@
     CertificateCellModel *model = [self.modelAddtionArray objectAtIndex:self.currentPage];
     
     if (model.cellImageType == CertificateCellImageDeselect) {
-        [self.selectButton setImage:[UIImage imageNamed:@"CustomPhotoAlbumPreviewView_NoChoose"] forState:UIControlStateNormal];
+        [self.selectButton setImage:UIIMAGEWITHNAME(@"CustomPhotoAlbumPreviewView_NoChoose.png") forState:UIControlStateNormal];
     } else if (model.cellImageType == CertificateCellImageSelect) {
-        [self.selectButton setImage:[UIImage imageNamed:@"CustomPhotoAlbumPreviewView_choose"] forState:UIControlStateNormal];
+        [self.selectButton setImage:UIIMAGEWITHNAME(@"CustomPhotoAlbumPreviewView_choose.png") forState:UIControlStateNormal];
     }
 }
 
@@ -113,7 +113,7 @@
     
     if (model.cellImageType == CertificateCellImageDeselect) {
         model.cellImageType = CertificateCellImageSelect;
-        [sender setImage:[UIImage imageNamed:@"CustomPhotoAlbumPreviewView_choose"] forState:UIControlStateNormal];
+        [sender setImage:UIIMAGEWITHNAME(@"CustomPhotoAlbumPreviewView_choose.png") forState:UIControlStateNormal];
         
         self.selectModelCount ++;
         [self updateSelectImageCountLabel];
@@ -121,7 +121,7 @@
         
     } else if (model.cellImageType == CertificateCellImageSelect) {
         model.cellImageType = CertificateCellImageDeselect;
-        [sender setImage:[UIImage imageNamed:@"CustomPhotoAlbumPreviewView_NoChoose"] forState:UIControlStateNormal];
+        [sender setImage:UIIMAGEWITHNAME(@"CustomPhotoAlbumPreviewView_NoChoose.png") forState:UIControlStateNormal];
         self.selectModelCount --;
         [self updateSelectImageCountLabel];
     }

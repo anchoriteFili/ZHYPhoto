@@ -36,7 +36,7 @@
     
     if (model.cellImageType == CertificateCellImagePhoto) {
         
-        self.certificateBackImageView.image = [UIImage imageNamed:@"CertificateCell_photo"];
+        self.certificateBackImageView.image = UIIMAGEWITHNAME(@"CertificateCell_photo.png");
     } else if (!model.itemImage) {
         // 大背景图片的赋值
 //        [self.certificateBackImageView sd_setImageWithURL:[NSURL URLWithString:model.imageUrl] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
@@ -53,15 +53,15 @@
             break;
             
         case CertificateCellImageDelete: // 编辑时的删除图片状态
-            self.certificateImageView.image = [UIImage imageNamed:@"CustomCameraCVCell_delete"];
+            self.certificateImageView.image = UIIMAGEWITHNAME(@"CustomCameraCVCell_delete.png");
             break;
             
         case CertificateCellImageDeselect: // 空圆圈没有选择状态
-            self.certificateImageView.image = [UIImage imageNamed:@"CustomPhotoAlbumPreviewView_NoChoose"];
+            self.certificateImageView.image = UIIMAGEWITHNAME(@"CustomPhotoAlbumPreviewView_NoChoose.png");
             break;
             
         case CertificateCellImageSelect: // 打对号的选择状态
-            self.certificateImageView.image = [UIImage imageNamed:@"CustomPhotoAlbumPreviewView_choose"];
+            self.certificateImageView.image = UIIMAGEWITHNAME(@"CustomPhotoAlbumPreviewView_choose.png");
             break;
             
         default:

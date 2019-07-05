@@ -57,7 +57,7 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
     [self collectionViewInitialization]; // 初始化collectionView
     
     self.cameraFlashlightState = CameraFlashlightStateAuto; //初始化的时候自动
-    [self.flashButton setImage:[UIImage imageNamed:@"CameraFlashlight_Auto"] forState:UIControlStateNormal];
+    [self.flashButton setImage:[UIImage imageNamed:@"CameraFlashlight_Auto.png"] forState:UIControlStateNormal];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -269,7 +269,7 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
             
             // 关闭闪光灯
             [self setFlashMode:AVCaptureFlashModeOff];
-            [sender setImage:[UIImage imageNamed:@"CameraFlashlight_OFF"] forState:UIControlStateNormal];
+            [sender setImage:[UIImage imageNamed:@"CameraFlashlight_OFF.png"] forState:UIControlStateNormal];
             [self setFlashModeButtonStatus];
             self.cameraFlashlightState = CameraFlashlightStateOFF;
             break;
@@ -278,7 +278,7 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
         case CameraFlashlightStateOFF: {
             // 打开闪光灯
             [self setFlashMode:AVCaptureFlashModeOff];
-            [sender setImage:[UIImage imageNamed:@"CameraFlashlight_ON"] forState:UIControlStateNormal];
+            [sender setImage:[UIImage imageNamed:@"CameraFlashlight_ON.png"] forState:UIControlStateNormal];
             [self setFlashModeButtonStatus];
             self.cameraFlashlightState = CameraFlashlightStateON;
             break;
@@ -287,7 +287,7 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
         case CameraFlashlightStateON: {
             // 闪光灯自动
             [self setFlashMode:AVCaptureFlashModeAuto];
-            [sender setImage:[UIImage imageNamed:@"CameraFlashlight_Auto"] forState:UIControlStateNormal];
+            [sender setImage:[UIImage imageNamed:@"CameraFlashlight_Auto.png"] forState:UIControlStateNormal];
             [self setFlashModeButtonStatus];
             self.cameraFlashlightState = CameraFlashlightStateAuto;
             break;

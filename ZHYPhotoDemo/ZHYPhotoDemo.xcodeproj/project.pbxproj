@@ -7,52 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		779809995D2715E2DBBFBB24 /* Pods_ZHYPhotoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4E472ED6B955CCB55B73CC /* Pods_ZHYPhotoDemo.framework */; };
 		D6D82ECA22CC944000E1D79D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82EC922CC944000E1D79D /* AppDelegate.m */; };
 		D6D82ECD22CC944000E1D79D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82ECC22CC944000E1D79D /* ViewController.m */; };
 		D6D82ED022CC944000E1D79D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D82ECE22CC944000E1D79D /* Main.storyboard */; };
 		D6D82ED222CC944100E1D79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D82ED122CC944100E1D79D /* Assets.xcassets */; };
 		D6D82ED522CC944100E1D79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D82ED322CC944100E1D79D /* LaunchScreen.storyboard */; };
 		D6D82ED822CC944100E1D79D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82ED722CC944100E1D79D /* main.m */; };
-		D6D82F7322CC962500E1D79D /* ZHYPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F3C22CC962500E1D79D /* ZHYPhoto.m */; };
-		D6D82F7422CC962500E1D79D /* CustomPhotoAlbumPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F3E22CC962500E1D79D /* CustomPhotoAlbumPreviewView.m */; };
-		D6D82F7522CC962500E1D79D /* CustomPhotoAlbumPreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F4022CC962500E1D79D /* CustomPhotoAlbumPreviewView.xib */; };
-		D6D82F7622CC962500E1D79D /* CustomPhotoAlbum.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F4222CC962500E1D79D /* CustomPhotoAlbum.xib */; };
-		D6D82F7722CC962500E1D79D /* CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F4322CC962500E1D79D /* CustomPhotoAlbum.m */; };
-		D6D82F7822CC962500E1D79D /* CertificateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F4722CC962500E1D79D /* CertificateTableViewCell.xib */; };
-		D6D82F7922CC962500E1D79D /* CertificateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F4822CC962500E1D79D /* CertificateCollectionViewCell.m */; };
-		D6D82F7A22CC962500E1D79D /* CertificateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F4922CC962500E1D79D /* CertificateTableViewCell.m */; };
-		D6D82F7B22CC962500E1D79D /* CertificateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F4A22CC962500E1D79D /* CertificateCollectionViewCell.xib */; };
-		D6D82F7C22CC962500E1D79D /* CameraFlashlight.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F4C22CC962500E1D79D /* CameraFlashlight.png */; };
-		D6D82F7D22CC962500E1D79D /* CustomPhotoAlbumPreviewView_choose.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F4D22CC962500E1D79D /* CustomPhotoAlbumPreviewView_choose.png */; };
-		D6D82F7E22CC962500E1D79D /* ChooseLicenseAccessoryView_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F4E22CC962500E1D79D /* ChooseLicenseAccessoryView_delete.png */; };
-		D6D82F7F22CC962500E1D79D /* CustomPhotoAlbumPreviewView_NoChoose.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F4F22CC962500E1D79D /* CustomPhotoAlbumPreviewView_NoChoose.png */; };
-		D6D82F8022CC962500E1D79D /* CameraFlashlight_Auto.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5022CC962500E1D79D /* CameraFlashlight_Auto.png */; };
-		D6D82F8122CC962500E1D79D /* photographButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5122CC962500E1D79D /* photographButton.png */; };
-		D6D82F8222CC962500E1D79D /* fanhuian_white.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5222CC962500E1D79D /* fanhuian_white.png */; };
-		D6D82F8322CC962500E1D79D /* CertificateCell_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5322CC962500E1D79D /* CertificateCell_photo.png */; };
-		D6D82F8422CC962500E1D79D /* CameraFlashlight_ON.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5422CC962500E1D79D /* CameraFlashlight_ON.png */; };
-		D6D82F8522CC962500E1D79D /* CustomPhotoAlbum_expandImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5522CC962500E1D79D /* CustomPhotoAlbum_expandImage.png */; };
-		D6D82F8622CC962500E1D79D /* CameraReversal.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5622CC962500E1D79D /* CameraReversal.png */; };
-		D6D82F8722CC962500E1D79D /* blue_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5722CC962500E1D79D /* blue_bg.png */; };
-		D6D82F8822CC962500E1D79D /* CustomCameraVC_Album.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5822CC962500E1D79D /* CustomCameraVC_Album.png */; };
-		D6D82F8922CC962500E1D79D /* CustomCameraCVCell_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5922CC962500E1D79D /* CustomCameraCVCell_delete.png */; };
-		D6D82F8A22CC962500E1D79D /* CustomPhotoAlbum_retractImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5A22CC962500E1D79D /* CustomPhotoAlbum_retractImage.png */; };
-		D6D82F8B22CC962500E1D79D /* blue_bg_Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5B22CC962500E1D79D /* blue_bg_Highlighted.png */; };
-		D6D82F8C22CC962500E1D79D /* CameraFlashlight_OFF.png in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F5C22CC962500E1D79D /* CameraFlashlight_OFF.png */; };
-		D6D82F8D22CC962500E1D79D /* CustomCameraVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F6122CC962500E1D79D /* CustomCameraVC.xib */; };
-		D6D82F8E22CC962500E1D79D /* CustomCameraCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F6222CC962500E1D79D /* CustomCameraCVCell.xib */; };
-		D6D82F8F22CC962500E1D79D /* CustomCameraUsePhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D82F6322CC962500E1D79D /* CustomCameraUsePhotoView.xib */; };
-		D6D82F9022CC962500E1D79D /* CustomCameraCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F6422CC962500E1D79D /* CustomCameraCVCell.m */; };
-		D6D82F9122CC962500E1D79D /* CustomCameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F6522CC962500E1D79D /* CustomCameraVC.m */; };
-		D6D82F9222CC962500E1D79D /* CustomCameraUsePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F6622CC962500E1D79D /* CustomCameraUsePhotoView.m */; };
-		D6D82F9322CC962500E1D79D /* AlbumTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F6922CC962500E1D79D /* AlbumTool.m */; };
-		D6D82F9422CC962500E1D79D /* CertificateCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F6A22CC962500E1D79D /* CertificateCellModel.m */; };
-		D6D82F9522CC962500E1D79D /* ImagesScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F6B22CC962500E1D79D /* ImagesScrollView.m */; };
-		D6D82F9622CC962500E1D79D /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F6C22CC962500E1D79D /* Album.m */; };
-		D6D82F9722CC962500E1D79D /* ImageDirectionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D82F6D22CC962500E1D79D /* ImageDirectionTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AD4470737AFC4ECA41F5926 /* Pods-ZHYPhotoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYPhotoDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZHYPhotoDemo/Pods-ZHYPhotoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4E472ED6B955CCB55B73CC /* Pods_ZHYPhotoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHYPhotoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D82EC522CC944000E1D79D /* ZHYPhotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHYPhotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D82EC822CC944000E1D79D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6D82EC922CC944000E1D79D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,56 +29,7 @@
 		D6D82ED422CC944100E1D79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6D82ED622CC944100E1D79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D82ED722CC944100E1D79D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D6D82F3C22CC962500E1D79D /* ZHYPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHYPhoto.m; sourceTree = "<group>"; };
-		D6D82F3E22CC962500E1D79D /* CustomPhotoAlbumPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPhotoAlbumPreviewView.m; sourceTree = "<group>"; };
-		D6D82F3F22CC962500E1D79D /* CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPhotoAlbum.h; sourceTree = "<group>"; };
-		D6D82F4022CC962500E1D79D /* CustomPhotoAlbumPreviewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPhotoAlbumPreviewView.xib; sourceTree = "<group>"; };
-		D6D82F4122CC962500E1D79D /* CustomPhotoAlbumPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPhotoAlbumPreviewView.h; sourceTree = "<group>"; };
-		D6D82F4222CC962500E1D79D /* CustomPhotoAlbum.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPhotoAlbum.xib; sourceTree = "<group>"; };
-		D6D82F4322CC962500E1D79D /* CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPhotoAlbum.m; sourceTree = "<group>"; };
-		D6D82F4522CC962500E1D79D /* CertificateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateCollectionViewCell.h; sourceTree = "<group>"; };
-		D6D82F4622CC962500E1D79D /* CertificateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateTableViewCell.h; sourceTree = "<group>"; };
-		D6D82F4722CC962500E1D79D /* CertificateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertificateTableViewCell.xib; sourceTree = "<group>"; };
-		D6D82F4822CC962500E1D79D /* CertificateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateCollectionViewCell.m; sourceTree = "<group>"; };
-		D6D82F4922CC962500E1D79D /* CertificateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateTableViewCell.m; sourceTree = "<group>"; };
-		D6D82F4A22CC962500E1D79D /* CertificateCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CertificateCollectionViewCell.xib; sourceTree = "<group>"; };
-		D6D82F4C22CC962500E1D79D /* CameraFlashlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraFlashlight.png; sourceTree = "<group>"; };
-		D6D82F4D22CC962500E1D79D /* CustomPhotoAlbumPreviewView_choose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomPhotoAlbumPreviewView_choose.png; sourceTree = "<group>"; };
-		D6D82F4E22CC962500E1D79D /* ChooseLicenseAccessoryView_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChooseLicenseAccessoryView_delete.png; sourceTree = "<group>"; };
-		D6D82F4F22CC962500E1D79D /* CustomPhotoAlbumPreviewView_NoChoose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomPhotoAlbumPreviewView_NoChoose.png; sourceTree = "<group>"; };
-		D6D82F5022CC962500E1D79D /* CameraFlashlight_Auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraFlashlight_Auto.png; sourceTree = "<group>"; };
-		D6D82F5122CC962500E1D79D /* photographButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photographButton.png; sourceTree = "<group>"; };
-		D6D82F5222CC962500E1D79D /* fanhuian_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fanhuian_white.png; sourceTree = "<group>"; };
-		D6D82F5322CC962500E1D79D /* CertificateCell_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CertificateCell_photo.png; sourceTree = "<group>"; };
-		D6D82F5422CC962500E1D79D /* CameraFlashlight_ON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraFlashlight_ON.png; sourceTree = "<group>"; };
-		D6D82F5522CC962500E1D79D /* CustomPhotoAlbum_expandImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomPhotoAlbum_expandImage.png; sourceTree = "<group>"; };
-		D6D82F5622CC962500E1D79D /* CameraReversal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraReversal.png; sourceTree = "<group>"; };
-		D6D82F5722CC962500E1D79D /* blue_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_bg.png; sourceTree = "<group>"; };
-		D6D82F5822CC962500E1D79D /* CustomCameraVC_Album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomCameraVC_Album.png; sourceTree = "<group>"; };
-		D6D82F5922CC962500E1D79D /* CustomCameraCVCell_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomCameraCVCell_delete.png; sourceTree = "<group>"; };
-		D6D82F5A22CC962500E1D79D /* CustomPhotoAlbum_retractImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomPhotoAlbum_retractImage.png; sourceTree = "<group>"; };
-		D6D82F5B22CC962500E1D79D /* blue_bg_Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_bg_Highlighted.png; sourceTree = "<group>"; };
-		D6D82F5C22CC962500E1D79D /* CameraFlashlight_OFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraFlashlight_OFF.png; sourceTree = "<group>"; };
-		D6D82F5E22CC962500E1D79D /* CustomCameraCVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCameraCVCell.h; sourceTree = "<group>"; };
-		D6D82F5F22CC962500E1D79D /* CustomCameraUsePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCameraUsePhotoView.h; sourceTree = "<group>"; };
-		D6D82F6022CC962500E1D79D /* CustomCameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCameraVC.h; sourceTree = "<group>"; };
-		D6D82F6122CC962500E1D79D /* CustomCameraVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCameraVC.xib; sourceTree = "<group>"; };
-		D6D82F6222CC962500E1D79D /* CustomCameraCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCameraCVCell.xib; sourceTree = "<group>"; };
-		D6D82F6322CC962500E1D79D /* CustomCameraUsePhotoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCameraUsePhotoView.xib; sourceTree = "<group>"; };
-		D6D82F6422CC962500E1D79D /* CustomCameraCVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCameraCVCell.m; sourceTree = "<group>"; };
-		D6D82F6522CC962500E1D79D /* CustomCameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCameraVC.m; sourceTree = "<group>"; };
-		D6D82F6622CC962500E1D79D /* CustomCameraUsePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCameraUsePhotoView.m; sourceTree = "<group>"; };
-		D6D82F6722CC962500E1D79D /* ZHYPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHYPhoto.h; sourceTree = "<group>"; };
-		D6D82F6922CC962500E1D79D /* AlbumTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTool.m; sourceTree = "<group>"; };
-		D6D82F6A22CC962500E1D79D /* CertificateCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CertificateCellModel.m; sourceTree = "<group>"; };
-		D6D82F6B22CC962500E1D79D /* ImagesScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesScrollView.m; sourceTree = "<group>"; };
-		D6D82F6C22CC962500E1D79D /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
-		D6D82F6D22CC962500E1D79D /* ImageDirectionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDirectionTool.m; sourceTree = "<group>"; };
-		D6D82F6E22CC962500E1D79D /* CertificateCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CertificateCellModel.h; sourceTree = "<group>"; };
-		D6D82F6F22CC962500E1D79D /* AlbumTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTool.h; sourceTree = "<group>"; };
-		D6D82F7022CC962500E1D79D /* ImageDirectionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDirectionTool.h; sourceTree = "<group>"; };
-		D6D82F7122CC962500E1D79D /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
-		D6D82F7222CC962500E1D79D /* ImagesScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesScrollView.h; sourceTree = "<group>"; };
+		EC1EFE899F86AD60B5E4DACB /* Pods-ZHYPhotoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHYPhotoDemo.release.xcconfig"; path = "Target Support Files/Pods-ZHYPhotoDemo/Pods-ZHYPhotoDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				779809995D2715E2DBBFBB24 /* Pods_ZHYPhotoDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CEFFFE5806A9B342F17BC16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB4E472ED6B955CCB55B73CC /* Pods_ZHYPhotoDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6D82EBC22CC944000E1D79D = {
 			isa = PBXGroup;
 			children = (
 				D6D82EC722CC944000E1D79D /* ZHYPhotoDemo */,
 				D6D82EC622CC944000E1D79D /* Products */,
+				FD373BCFFE5528EBCCAE5207 /* Pods */,
+				2CEFFFE5806A9B342F17BC16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,7 +73,6 @@
 		D6D82EC722CC944000E1D79D /* ZHYPhotoDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D6D82F3B22CC962500E1D79D /* Source */,
 				D6D82EC822CC944000E1D79D /* AppDelegate.h */,
 				D6D82EC922CC944000E1D79D /* AppDelegate.m */,
 				D6D82ECB22CC944000E1D79D /* ViewController.h */,
@@ -159,102 +86,14 @@
 			path = ZHYPhotoDemo;
 			sourceTree = "<group>";
 		};
-		D6D82F3B22CC962500E1D79D /* Source */ = {
+		FD373BCFFE5528EBCCAE5207 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D6D82F6722CC962500E1D79D /* ZHYPhoto.h */,
-				D6D82F3C22CC962500E1D79D /* ZHYPhoto.m */,
-				D6D82F3D22CC962500E1D79D /* PhotoPart */,
-				D6D82F4422CC962500E1D79D /* CellPart */,
-				D6D82F4B22CC962500E1D79D /* images */,
-				D6D82F5D22CC962500E1D79D /* CameraPart */,
-				D6D82F6822CC962500E1D79D /* Tool */,
+				1AD4470737AFC4ECA41F5926 /* Pods-ZHYPhotoDemo.debug.xcconfig */,
+				EC1EFE899F86AD60B5E4DACB /* Pods-ZHYPhotoDemo.release.xcconfig */,
 			);
-			name = Source;
-			path = ../../Source;
-			sourceTree = "<group>";
-		};
-		D6D82F3D22CC962500E1D79D /* PhotoPart */ = {
-			isa = PBXGroup;
-			children = (
-				D6D82F3E22CC962500E1D79D /* CustomPhotoAlbumPreviewView.m */,
-				D6D82F3F22CC962500E1D79D /* CustomPhotoAlbum.h */,
-				D6D82F4022CC962500E1D79D /* CustomPhotoAlbumPreviewView.xib */,
-				D6D82F4122CC962500E1D79D /* CustomPhotoAlbumPreviewView.h */,
-				D6D82F4222CC962500E1D79D /* CustomPhotoAlbum.xib */,
-				D6D82F4322CC962500E1D79D /* CustomPhotoAlbum.m */,
-			);
-			path = PhotoPart;
-			sourceTree = "<group>";
-		};
-		D6D82F4422CC962500E1D79D /* CellPart */ = {
-			isa = PBXGroup;
-			children = (
-				D6D82F4522CC962500E1D79D /* CertificateCollectionViewCell.h */,
-				D6D82F4622CC962500E1D79D /* CertificateTableViewCell.h */,
-				D6D82F4722CC962500E1D79D /* CertificateTableViewCell.xib */,
-				D6D82F4822CC962500E1D79D /* CertificateCollectionViewCell.m */,
-				D6D82F4922CC962500E1D79D /* CertificateTableViewCell.m */,
-				D6D82F4A22CC962500E1D79D /* CertificateCollectionViewCell.xib */,
-			);
-			path = CellPart;
-			sourceTree = "<group>";
-		};
-		D6D82F4B22CC962500E1D79D /* images */ = {
-			isa = PBXGroup;
-			children = (
-				D6D82F4C22CC962500E1D79D /* CameraFlashlight.png */,
-				D6D82F4D22CC962500E1D79D /* CustomPhotoAlbumPreviewView_choose.png */,
-				D6D82F4E22CC962500E1D79D /* ChooseLicenseAccessoryView_delete.png */,
-				D6D82F4F22CC962500E1D79D /* CustomPhotoAlbumPreviewView_NoChoose.png */,
-				D6D82F5022CC962500E1D79D /* CameraFlashlight_Auto.png */,
-				D6D82F5122CC962500E1D79D /* photographButton.png */,
-				D6D82F5222CC962500E1D79D /* fanhuian_white.png */,
-				D6D82F5322CC962500E1D79D /* CertificateCell_photo.png */,
-				D6D82F5422CC962500E1D79D /* CameraFlashlight_ON.png */,
-				D6D82F5522CC962500E1D79D /* CustomPhotoAlbum_expandImage.png */,
-				D6D82F5622CC962500E1D79D /* CameraReversal.png */,
-				D6D82F5722CC962500E1D79D /* blue_bg.png */,
-				D6D82F5822CC962500E1D79D /* CustomCameraVC_Album.png */,
-				D6D82F5922CC962500E1D79D /* CustomCameraCVCell_delete.png */,
-				D6D82F5A22CC962500E1D79D /* CustomPhotoAlbum_retractImage.png */,
-				D6D82F5B22CC962500E1D79D /* blue_bg_Highlighted.png */,
-				D6D82F5C22CC962500E1D79D /* CameraFlashlight_OFF.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		D6D82F5D22CC962500E1D79D /* CameraPart */ = {
-			isa = PBXGroup;
-			children = (
-				D6D82F5E22CC962500E1D79D /* CustomCameraCVCell.h */,
-				D6D82F5F22CC962500E1D79D /* CustomCameraUsePhotoView.h */,
-				D6D82F6022CC962500E1D79D /* CustomCameraVC.h */,
-				D6D82F6122CC962500E1D79D /* CustomCameraVC.xib */,
-				D6D82F6222CC962500E1D79D /* CustomCameraCVCell.xib */,
-				D6D82F6322CC962500E1D79D /* CustomCameraUsePhotoView.xib */,
-				D6D82F6422CC962500E1D79D /* CustomCameraCVCell.m */,
-				D6D82F6522CC962500E1D79D /* CustomCameraVC.m */,
-				D6D82F6622CC962500E1D79D /* CustomCameraUsePhotoView.m */,
-			);
-			path = CameraPart;
-			sourceTree = "<group>";
-		};
-		D6D82F6822CC962500E1D79D /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				D6D82F6922CC962500E1D79D /* AlbumTool.m */,
-				D6D82F6A22CC962500E1D79D /* CertificateCellModel.m */,
-				D6D82F6B22CC962500E1D79D /* ImagesScrollView.m */,
-				D6D82F6C22CC962500E1D79D /* Album.m */,
-				D6D82F6D22CC962500E1D79D /* ImageDirectionTool.m */,
-				D6D82F6E22CC962500E1D79D /* CertificateCellModel.h */,
-				D6D82F6F22CC962500E1D79D /* AlbumTool.h */,
-				D6D82F7022CC962500E1D79D /* ImageDirectionTool.h */,
-				D6D82F7122CC962500E1D79D /* Album.h */,
-				D6D82F7222CC962500E1D79D /* ImagesScrollView.h */,
-			);
-			path = Tool;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6D82EDB22CC944100E1D79D /* Build configuration list for PBXNativeTarget "ZHYPhotoDemo" */;
 			buildPhases = (
+				77C7965369C8B2718B0FC902 /* [CP] Check Pods Manifest.lock */,
 				D6D82EC122CC944000E1D79D /* Sources */,
 				D6D82EC222CC944000E1D79D /* Frameworks */,
 				D6D82EC322CC944000E1D79D /* Resources */,
+				EA0432329C4FB2F1D7B48D76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,36 +156,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D82ED522CC944100E1D79D /* LaunchScreen.storyboard in Resources */,
-				D6D82F8222CC962500E1D79D /* fanhuian_white.png in Resources */,
-				D6D82F7822CC962500E1D79D /* CertificateTableViewCell.xib in Resources */,
-				D6D82F8922CC962500E1D79D /* CustomCameraCVCell_delete.png in Resources */,
-				D6D82F7D22CC962500E1D79D /* CustomPhotoAlbumPreviewView_choose.png in Resources */,
-				D6D82F8022CC962500E1D79D /* CameraFlashlight_Auto.png in Resources */,
-				D6D82F8422CC962500E1D79D /* CameraFlashlight_ON.png in Resources */,
-				D6D82F8722CC962500E1D79D /* blue_bg.png in Resources */,
-				D6D82F8622CC962500E1D79D /* CameraReversal.png in Resources */,
 				D6D82ED222CC944100E1D79D /* Assets.xcassets in Resources */,
 				D6D82ED022CC944000E1D79D /* Main.storyboard in Resources */,
-				D6D82F8B22CC962500E1D79D /* blue_bg_Highlighted.png in Resources */,
-				D6D82F8E22CC962500E1D79D /* CustomCameraCVCell.xib in Resources */,
-				D6D82F8A22CC962500E1D79D /* CustomPhotoAlbum_retractImage.png in Resources */,
-				D6D82F8522CC962500E1D79D /* CustomPhotoAlbum_expandImage.png in Resources */,
-				D6D82F7B22CC962500E1D79D /* CertificateCollectionViewCell.xib in Resources */,
-				D6D82F8F22CC962500E1D79D /* CustomCameraUsePhotoView.xib in Resources */,
-				D6D82F8D22CC962500E1D79D /* CustomCameraVC.xib in Resources */,
-				D6D82F8122CC962500E1D79D /* photographButton.png in Resources */,
-				D6D82F7F22CC962500E1D79D /* CustomPhotoAlbumPreviewView_NoChoose.png in Resources */,
-				D6D82F7522CC962500E1D79D /* CustomPhotoAlbumPreviewView.xib in Resources */,
-				D6D82F7E22CC962500E1D79D /* ChooseLicenseAccessoryView_delete.png in Resources */,
-				D6D82F8822CC962500E1D79D /* CustomCameraVC_Album.png in Resources */,
-				D6D82F8C22CC962500E1D79D /* CameraFlashlight_OFF.png in Resources */,
-				D6D82F7C22CC962500E1D79D /* CameraFlashlight.png in Resources */,
-				D6D82F7622CC962500E1D79D /* CustomPhotoAlbum.xib in Resources */,
-				D6D82F8322CC962500E1D79D /* CertificateCell_photo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77C7965369C8B2718B0FC902 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHYPhotoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0432329C4FB2F1D7B48D76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHYPhotoDemo/Pods-ZHYPhotoDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHYPhotoDemo/Pods-ZHYPhotoDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHYPhotoDemo/Pods-ZHYPhotoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D6D82EC122CC944000E1D79D /* Sources */ = {
@@ -352,20 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D82ECD22CC944000E1D79D /* ViewController.m in Sources */,
-				D6D82F9722CC962500E1D79D /* ImageDirectionTool.m in Sources */,
-				D6D82F7722CC962500E1D79D /* CustomPhotoAlbum.m in Sources */,
-				D6D82F9122CC962500E1D79D /* CustomCameraVC.m in Sources */,
-				D6D82F9622CC962500E1D79D /* Album.m in Sources */,
 				D6D82ED822CC944100E1D79D /* main.m in Sources */,
-				D6D82F7A22CC962500E1D79D /* CertificateTableViewCell.m in Sources */,
-				D6D82F9322CC962500E1D79D /* AlbumTool.m in Sources */,
-				D6D82F9222CC962500E1D79D /* CustomCameraUsePhotoView.m in Sources */,
-				D6D82F7322CC962500E1D79D /* ZHYPhoto.m in Sources */,
-				D6D82F9422CC962500E1D79D /* CertificateCellModel.m in Sources */,
-				D6D82F7422CC962500E1D79D /* CustomPhotoAlbumPreviewView.m in Sources */,
-				D6D82F9022CC962500E1D79D /* CustomCameraCVCell.m in Sources */,
-				D6D82F9522CC962500E1D79D /* ImagesScrollView.m in Sources */,
-				D6D82F7922CC962500E1D79D /* CertificateCollectionViewCell.m in Sources */,
 				D6D82ECA22CC944000E1D79D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,6 +352,7 @@
 		};
 		D6D82EDC22CC944100E1D79D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AD4470737AFC4ECA41F5926 /* Pods-ZHYPhotoDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -524,6 +371,7 @@
 		};
 		D6D82EDD22CC944100E1D79D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1EFE899F86AD60B5E4DACB /* Pods-ZHYPhotoDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

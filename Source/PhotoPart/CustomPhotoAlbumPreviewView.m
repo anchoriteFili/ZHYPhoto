@@ -15,7 +15,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         NSString *className = NSStringFromClass([self class]);
-        self = [[[NSBundle mainBundle] loadNibNamed:className owner:self options:nil] lastObject];
+        self = [[[NSBundle bundleForClass:[self class]] loadNibNamed:className owner:self options:nil] lastObject];
         
         self.imagesScrollView = [[ImagesScrollView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT)];
         [self.bearView addSubview:self.imagesScrollView];

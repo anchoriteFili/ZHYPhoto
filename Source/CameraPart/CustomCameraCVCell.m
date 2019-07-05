@@ -21,7 +21,7 @@
     if (self)
     {
 #pragma mark 初始化加载xib文件
-        NSArray *arrayOfViews = [[NSBundle mainBundle] loadNibNamed:@"CustomCameraCVCell" owner:self options:nil];
+        NSArray *arrayOfViews = [[NSBundle bundleForClass:[self class]] loadNibNamed:@"CustomCameraCVCell" owner:self options:nil];
         // 加载nib
         self = [arrayOfViews objectAtIndex:0];
         

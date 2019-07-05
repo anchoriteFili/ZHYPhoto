@@ -15,7 +15,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         NSString *className = NSStringFromClass([self class]);
-        self = [[[NSBundle mainBundle] loadNibNamed:className owner:self options:nil] lastObject];
+        self = [[[NSBundle bundleForClass:[self class]] loadNibNamed:className owner:self options:nil] lastObject];
         
         //1、创建手势实例，并连接方法handleTapGesture,点击手势
         UITapGestureRecognizer *tapGesture=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(imageTapClick:)];

@@ -1,0 +1,16 @@
+PODS:
+  - ZHYPhoto (0.0.4)
+
+DEPENDENCIES:
+  - ZHYPhoto (from `../`)
+
+EXTERNAL SOURCES:
+  ZHYPhoto:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHYPhoto: 1840d129fec2a2695656af086f885effad648223
+
+PODFILE CHECKSUM: 2fca615cc8108f40b4db393b703ca5b88bab0161
+
+COCOAPODS: 1.7.3

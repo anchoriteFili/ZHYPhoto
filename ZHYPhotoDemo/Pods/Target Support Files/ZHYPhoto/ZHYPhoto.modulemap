@@ -1,0 +1,6 @@
+framework module ZHYPhoto {
+  umbrella header "ZHYPhoto-umbrella.h"
+
+  export *
+  module * { export * }
+}

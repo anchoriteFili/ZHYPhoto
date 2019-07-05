@@ -45,6 +45,14 @@
 
 @implementation CustomPhotoAlbum
 
+- (instancetype)init
+{
+    self = [super initWithNibName:@"CustomPhotoAlbum" bundle:[NSBundle bundleForClass:[self class]]];
+    if (self) {
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.

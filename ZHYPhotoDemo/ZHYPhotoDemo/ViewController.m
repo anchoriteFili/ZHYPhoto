@@ -24,7 +24,13 @@
 
 - (IBAction)buttonClick:(UIButton *)sender {
     
-    [ZHYPhoto openPhotoWithChoseType:OpenPhotoTypeAlbum photoCount:5 andVC:self];
+    if ([sender.titleLabel.text isEqualToString:@"启动相册"]) {
+        [ZHYPhoto openPhotoWithChoseType:OpenPhotoTypeAlbum photoCount:5 andVC:self];
+    } else {
+        [ZHYPhoto openPhotoWithChoseType:OpenPhotoTypeCamera photoCount:5 andVC:self];
+    }
+    
+    
 }
 
 // 已经选择的图片
